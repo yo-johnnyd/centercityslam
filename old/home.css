@@ -1,0 +1,140 @@
+/* CSS Document */
+
+body{
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size:14px;
+	background-image:url(img/background.gif);
+	background-repeat:repeat-x;
+	background-color:#ffffff;
+}
+div.content{
+	width:65%;
+	float:left;
+	padding-left:20px;
+}
+div.sponsors{
+	width:30%;
+	float:right;
+	text-align:center;
+	margin-right:10px;
+}
+img.sponsorImg{
+	margin-bottom:10px;
+}
+a.sponsorLink{
+	color:#fff;
+	padding:0px;
+	padding:10px;
+	margin-bottom:10px;
+}
+img.boatHouseImg{
+	margin-bottom:30px;
+}
+img.bombBombImg{
+	padding-bottom:0px;
+}
+img.bucaImg{
+	padding:0px;
+}
+img.rowZoneImg{
+}
+img.drexelPizzaImg{
+	padding-top:0px;
+}
+.myBox
+{
+    margin: 0 auto;
+    margin-top:40px;
+    margin-bottom:20px;
+    color: #333333;
+    width: 90%;
+    text-align: left;
+    background-color: #ffffff;
+    border: 3px solid #e2e2e2;
+}
+div.logos
+{
+    padding:10px 20px 0px 20px;
+    width:100%;
+    height:130px;
+}
+div.fistLogo{
+    float:left;
+    width:20%;
+}
+div.centerCityLogo{
+    float:left;
+    width:80%;
+}
+#menu{padding-left:20px;position:relative;display:block;height:30px;font-size:12px;font-weight:bold;background:transparent url(img/bgOFF.gif) repeat-x top left;font-family:Arial,Verdana,Helvitica,sans-serif;}
+#menu ul{margin:0;padding:0;list-style-type:none;width:auto;}
+#menu ul li{display:block;float:left;margin:0 1px 0 0;}
+#menu ul li a{display:block;float:left;color:#000;text-decoration:none;padding:6px 20px 0 20px;height:28px;}
+#menu ul li a:hover,#menu ul li a.current{color:#fff;background:transparent url(img/bgON.gif) repeat-x top left;}
+
+.myBox p{
+	padding-left:45px;
+	padding-right:20px;
+	width:80%;
+}
+.myBox h2
+{
+    padding-left:20px;
+    padding-right:20px;
+	color:#283255;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.myBox h3
+{
+    padding-left:20px;
+    padding-right:20px;
+	color:#283255;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.alert{
+	font-weight:bold;
+	color:#BF0000;
+	font-size:1.2em;
+}
+div.infoBox{
+	margin-left:45px;
+	padding:10px;
+	border:#999999 solid 1px;
+	width:50%;
+	text-align:center;
+	background-color:#ededed;
+}
+table.schedule{
+	margin-top:15px;
+	margin-left:45px;
+	width:75%;
+	font-size:14px;
+	border: 1px #999999 solid;
+	background-color:#ededed;
+}
+table.schedule td{
+	border: 1px #d9d9d9 solid;
+	background-color:#ffffff;
+	padding:4px;
+}
+table.schedule th{
+	text-align:center;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	color:#283255;
+}
+ul.notes{
+	margin-left:45px;
+}
+ul.notes li{
+	padding:2px;
+}
+div.footer{
+	text-align:center;
+	color:#283255;
+}
+/* heading color ideas
+614037
+*/
+/* gradient colors:
+dark blue 283255 
+light blue: ced2da */
