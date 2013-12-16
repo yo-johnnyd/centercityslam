@@ -1,4 +1,4 @@
-          <ul class="nav nav-pills">
+          <ul class="nav nav-pills" id="yearMenu">
             <li ng-class="{active:active2013}"><a href="#/2013">2013</a></li>
             <li ng-class="{active:active2012}"><a href="#/2012">2012</a></li>
             <li><a href="#">2011</a></li>
@@ -68,14 +68,14 @@
                 <td>
                   <ul class="unstyled">
                     <li ng-repeat="event in events | taggedEvents:womensTag" ng-show="(event.rowers|filter:search).length">
-                      <a href="#{{event.event}}">{{event.eventLong}}</a>
+                      <a class="race-link" ng-href="" ng-click="scrollToRace(event.event)">{{event.eventLong}}</a>
                     </li>
                   </ul>
                 </td>
                 <td>
                   <ul class="unstyled">
                     <li ng-repeat="event in events | taggedEvents:mensTag" ng-show="(event.rowers|filter:search).length">
-                      <a href="#{{event.event}}">{{event.eventLong}}</a>
+                      <a class="race-link" ng-href="" ng-click="scrollToRace(event.event)">{{event.eventLong}}</a>
                     </li>
                   </ul>
                 </td>
@@ -84,7 +84,7 @@
           </table>
           <div style="overflow:auto;" ng-repeat="event in events" id="{{event.event}}">
             <table class="table table-striped table-condensed" ng-show="(event.rowers|filter:search).length">
-              <caption>{{event.eventLong}}</caption>
+              <caption><strong>{{event.eventLong}}</strong> <a class="race-link" ng-href="" ng-click="scrollToTop()">top</a></caption>
               <thead>
                 <tr>
                   <th></th>

@@ -19,38 +19,29 @@ angular.module('resultsFilters', [])
 
 angular.module('results', ['ngRoute','resultsFilters'])
 .config(function($routeProvider) {
-	$routeProvider.when('/2013', {
+	$routeProvider.when('/year/:year', {
 		controller:'ResultsCtrl',
 		templateUrl:'results/resultsTemplate.html'
-	}).when('/2012', {
-		controller:'ResultsCtrl2012',
-		templateUrl:'results/resultsTemplate.html'
 	})
-	// .when('/edit/:projectId', {
-	// controller:'EditCtrl',
-	// templateUrl:'detail.html'
-	// })
-	// .when('/new', {
-	// controller:'CreateCtrl',
-	// templateUrl:'detail.html'
-	// })
 	.otherwise({
-		redirectTo:'/2013'
+		redirectTo:'/year/2013'
 	});
 })
-.controller('ResultsCtrl', function($scope, $http) {
-	$http.get('results/2013results.json').success(function(data) {
+.controller('ResultsCtrl', function($rootScope, $scope, $http, $routeParams, $location, $anchorScroll) {
+	$http.get('results/' + $routeParams.year + 'results.json').success(function(data) {
 		$scope.events = data.years[0].events;
 	});
+	$scope.year = $routeParams.year;
 	$scope.mensTag = "mens";
 	$scope.womensTag = "womens";
 	$scope.active2013 = true;
-})
-.controller('ResultsCtrl2012', function($scope, $http) {
-	$http.get('results/2013results.json').success(function(data) {
-		$scope.events = data.years[0].events;
-	});
-	$scope.mensTag = "mens";
-	$scope.womensTag = "womens";
-	$scope.active2012 = true;
+	var menuHeight = $('#resultsMenu').height(),
+		yearMenuOffset = $('#yearMenu').offset.top;
+	$scope.scrollToRace = function(raceId) {
+		// TODO need a way to figure out how to do this differently for mobile?
+		$("body").animate({scrollTop: $('#' + raceId).offset().top - menuHeight}, "slow");
+	};
+	$scope.scrollToTop = function() {
+		$("body").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
+	};	
 });
