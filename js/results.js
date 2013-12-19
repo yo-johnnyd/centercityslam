@@ -121,6 +121,11 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		return year === $scope.year;
 	};
 
+	$('#filter-form').on('submit', function(event){
+		console.log('submit');
+		document.activeElement.blur();
+	});
+
 	// make request
 	$http.get('results/' + $routeParams.year + 'results.json').success(function(data) {
 		$scope.races = data.years[0].races;
