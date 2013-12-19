@@ -1,5 +1,5 @@
 angular.module('resultsFilters', [])
-.filter('taggedEvents', function(){
+.filter('taggedRaces', function(){
 	return function(events, tagName) {
 		var taggedEvents = [];
 		angular.forEach(events, function(event){
@@ -123,6 +123,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 
 	// make request
 	$http.get('results/' + $routeParams.year + 'results.json').success(function(data) {
-		$scope.events = data.years[0].events;
+		$scope.races = data.years[0].races;
 	});
 });

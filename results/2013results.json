@@ -1,15 +1,15 @@
 {
-	"race" : "centerCitySlam",
+	"event" : "centerCitySlam",
 	"years": [
 		{	
 			"year": "2013",
-			"events": [
+			"races": [
 				{
-					"event": "whsn2013",
-					"eventLong": "Women's High School Novice",
-					"eventNo": 1,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "whsn2013",
+					"name": "Women's High School Novice",
+					"number": 1,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "highSchool", "novice"],
 					"rowers": [
 						{"rank":1,"affiliation":"Philadelphia City Rowing","fName":"Margarita","lName":"Amihava","time":"07:41.6"},
@@ -42,20 +42,20 @@
 					]
 				},
 				{
-					"event": "gyu142013",
-					"eventLong": "Girl's Youth Under 14",
-					"eventNo": 2,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "gyu142013",
+					"name": "Girl's Youth Under 14",
+					"number": 2,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "girls", "u14"],
 					"rowers": [{"rank":1,"affiliation":"South Jersey Rowing Club","fName":"Rachel","lName":"Pierce","time":"09:12.9"}]
 				},
 				{
-					"event": "mhsn2013",
-					"eventLong": "Men's High School Novice",
-					"eventNo": 3,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mhsn2013",
+					"name": "Men's High School Novice",
+					"number": 3,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "highSchool", "novice"],
 					"rowers": [
 						{"rank":1,"affiliation":"Roman Catholic High School","fName":"Kyle","lName":"Adams","time":"07:01.1"},
@@ -86,11 +86,11 @@
 					]
 				},
 				{
-					"event": "byu142013",
-					"eventLong": "Boy's Youth Under 14",
-					"eventNo": 4,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "byu142013",
+					"name": "Boy's Youth Under 14",
+					"number": 4,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "boys", "u14"],
 					"rowers": [
 						{"rank":1,"affiliation":"South Jersey Rowing Club","fName":"Andy","lName":"LaBree","time":"07:36.2"},
@@ -98,11 +98,11 @@
 					]
 				},
 				{
-					"event": "whslw2013",
-					"eventLong": "Women's High School Lightweight",
-					"eventNo": 5,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "whslw2013",
+					"name": "Women's High School Lightweight",
+					"number": 5,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "highSchool", "lw"],
 					"rowers": [
 						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Alexandra","lName":"Aaron","time":"07:48.1"},
@@ -143,11 +143,11 @@
 					]
 				},
 				{
-					"event": "mhslw2013",
-					"eventLong": "Men's High School Lightweight",
-					"eventNo": 6,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mhslw2013",
+					"name": "Men's High School Lightweight",
+					"number": 6,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "highSchool", "lw"],
 					"rowers": [
 						{"rank":1,"affiliation":"St. Joseph's Prepatory School","fName":"Brendad","lName":"Keegans","time":"06:39.9"},
@@ -205,11 +205,11 @@
 					]
 				},
 				{
-					"event": "whs2013",
-					"eventLong": "Women's High School Openweight",
-					"eventNo": 7,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "whs2013",
+					"name": "Women's High School Openweight",
+					"number": 7,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "hs"],
 					"rowers": [
 						{"rank":1,"affiliation":"Baldwin School Crew","fName":"Victoria","lName":"Gevurtz","time":"07:12.2"},
@@ -262,11 +262,11 @@
 					]
 				},
 				{
-					"event": "mhs2013",
-					"eventLong": "Men's High School Openweight",
-					"eventNo": 8,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mhs2013",
+					"name": "Men's High School Openweight",
+					"number": 8,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "hs"],
 					"rowers": [
 						{"rank":1,"affiliation":"St. Joseph's Prepatory School","fName":"Jonathan","lName":"Ghaul","time":"06:18.0"},
@@ -318,11 +318,11 @@
 					]
 				},
 				{
-					"event": "wma2013",
-					"eventLong": "Women's Masters A (30-39)",
-					"eventNo": 9,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wma2013",
+					"name": "Women's Masters A (30-39)",
+					"number": 9,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "masters", "mastersA"],
 					"rowers": [
 						{"rank":1,"affiliation":"Philadelphia Flying Phoenix","fName":"Karen","lName":"Hommer","time":"07:41.5"},
@@ -332,11 +332,11 @@
 					]
 				},
 				{
-					"event": "wmb2013",
-					"eventLong": "Women's Master B (40-49)",
-					"eventNo": 10,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wmb2013",
+					"name": "Women's Master B (40-49)",
+					"number": 10,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "masters", "mastersB"],
 					"rowers": [
 						{"rank":1,"affiliation":"Philadelphia Flying Phoenix","fName":"Emilia","lName":"Rastrick","time":"07:44.6"},
@@ -353,11 +353,11 @@
 					]
 				},
 				{
-					"event": "wmc2013",
-					"eventLong": "Women's Masters C (50-59)",
-					"eventNo": 11,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wmc2013",
+					"name": "Women's Masters C (50-59)",
+					"number": 11,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "masters", "mastersC"],
 					"rowers": [
 						{"rank":1,"affiliation":"Philadelphia Flying Phoenix","fName":"Anne","lName":"Kelley","time":"08:36.1"},
@@ -373,11 +373,11 @@
 					]
 				},
 				{
-					"event": "wmd2013",
-					"eventLong": "Women's Masters D (60+)",
-					"eventNo": 12,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wmd2013",
+					"name": "Women's Masters D (60+)",
+					"number": 12,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "masters", "mastersD"],
 					"rowers": [
 						{"rank":1,"affiliation":"Philadelphia Flying Phoenix","fName":"Anne","lName":"Konowal","time":"09:37.6"},
@@ -389,11 +389,11 @@
 					]
 				},
 				{
-					"event": "mma2013",
-					"eventLong": "Men's Masters A (30-39)",
-					"eventNo": 13,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mma2013",
+					"name": "Men's Masters A (30-39)",
+					"number": 13,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "masters", "mastersA"],
 					"rowers": [
 						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Patrick","lName":"Rufo","time":"06:34.4"},
@@ -401,11 +401,11 @@
 					]
 				},
 				{
-					"event": "mmb2013",
-					"eventLong": "Men's Masters B (40-49)",
-					"eventNo": 14,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mmb2013",
+					"name": "Men's Masters B (40-49)",
+					"number": 14,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "masters", "mastersB"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Paul","lName":"Dziewisz","time":"06:50.7"},
@@ -417,11 +417,11 @@
 					]
 				},
 				{
-					"event": "mmc2013",
-					"eventLong": "Men's Masters C (50-59)",
-					"eventNo": 15,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mmc2013",
+					"name": "Men's Masters C (50-59)",
+					"number": 15,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "masters", "mastersC"],
 					"rowers": [
 						{"rank":1,"affiliation":"Whitemarsh Boat Club","fName":"Stephen","lName":"Whalen","time":"06:51.6"},
@@ -429,11 +429,11 @@
 					]
 				},
 				{
-					"event": "mmd2013",
-					"eventLong": "Men's Masters D (60+)",
-					"eventNo": 16,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mmd2013",
+					"name": "Men's Masters D (60+)",
+					"number": 16,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "masters", "mastersD"],
 					"rowers": [
 						{"rank":1,"affiliation":"Fairmount Rowing Association","fName":"Red","lName":"Sargent","time":"07:38.8"},
@@ -441,11 +441,11 @@
 					]
 				},
 				{
-					"event": "wcn2013",
-					"eventLong": "Women's Collegiate Novice",
-					"eventNo": 17,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wcn2013",
+					"name": "Women's Collegiate Novice",
+					"number": 17,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "collegiate", "novice"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Patience","lName":"Blossfeld","time":"07:29.5"},
@@ -459,11 +459,11 @@
 					]
 				},
 				{
-					"event": "mcn2013",
-					"eventLong": "Men's Collegiate Novice",
-					"eventNo": 18,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mcn2013",
+					"name": "Men's Collegiate Novice",
+					"number": 18,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "collegiate", "novice"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Mikulas","lName":"Sum","time":"06:21.5"},
@@ -481,11 +481,11 @@
 					]
 				},
 				{
-					"event": "wlw2013",
-					"eventLong": "Women's Open Lightweight",
-					"eventNo": 19,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wlw2013",
+					"name": "Women's Open Lightweight",
+					"number": 19,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "lw"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Brogan","lName":"Piecara","time":"07:58.0"},
@@ -498,11 +498,11 @@
 					]
 				},
 				{
-					"event": "mlw2013",
-					"eventLong": "Men's Open Lightweight",
-					"eventNo": 20,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mlw2013",
+					"name": "Men's Open Lightweight",
+					"number": 20,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "lw"],
 					"rowers": [
 						{"rank":1,"affiliation":"Vesper Boat Club","fName":"Sean","lName":"Clarke","time":"06:32.5"},
@@ -519,11 +519,11 @@
 					]
 				},
 				{
-					"event": "wo2013",
-					"eventLong": "Women's Open",
-					"eventNo": 21,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "wo2013",
+					"name": "Women's Open",
+					"number": 21,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["womens", "open"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Kayla","lName":"Wroblosky","time":"07:18.1"},
@@ -549,11 +549,11 @@
 					]
 				},
 				{
-					"event": "mo2013",
-					"eventLong": "Men's Open",
-					"eventNo": 22,
-					"eventTime": null, 
-					"eventDistance": 2000,
+					"id": "mo2013",
+					"name": "Men's Open",
+					"number": 22,
+					"time": null, 
+					"distance": 2000,
 					"tags": ["mens", "open"],
 					"rowers": [
 						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Taylor","lName":"Brown","time":"05:58.9"},
@@ -586,11 +586,11 @@
 					]
 				},
 				{
-					"event": "wodash2013",
-					"eventLong": "Women's Open 500m Dash",
-					"eventNo": 23,
-					"eventTime": null, 
-					"eventDistance": 500,
+					"id": "wodash2013",
+					"name": "Women's Open 500m Dash",
+					"number": 23,
+					"time": null, 
+					"distance": 500,
 					"tags": ["womens", "open", "dash"],
 					"rowers": [
 						{"rank":1,"affiliation":"Unaffiliated","fName":"Sierra","lName":"Baca","time":"01:38.6"},
@@ -600,11 +600,11 @@
 					]
 				},
 				{
-					"event": "modash2013",
-					"eventLong": "Men's Open 500m Dash",
-					"eventNo": 24,
-					"eventTime": null, 
-					"eventDistance": 500,
+					"id": "modash2013",
+					"name": "Men's Open 500m Dash",
+					"number": 24,
+					"time": null, 
+					"distance": 500,
 					"tags": ["mens", "open", "dash"],
 					"rowers": [
 						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Taylor","lName":"Brown","time":"01:22.8"},
