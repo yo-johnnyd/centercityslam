@@ -110,11 +110,11 @@ angular.module('results', ['ngRoute','resultsFilters'])
 
 	$scope.scrollToRace = function(raceId) {
 		// TODO need a way to figure out how to do this differently for mobile?
-		$("body").animate({scrollTop: $('#' + raceId).offset().top - menuHeight}, "slow");
+		$("body,html").animate({scrollTop: $('#' + raceId).offset().top - menuHeight}, "slow");
 	};
 	// TODO: does this need to animate? doesn't seem to work anyways
 	$scope.scrollToTop = function() {
-		$("body").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
+		$("body,html").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
 	};
 	// menu context check	
 	$scope.isActive = function(year){
