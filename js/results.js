@@ -21,11 +21,7 @@ angular.module('resultsFilters', [])
 angular.module('results', ['ngRoute','resultsFilters'])
 
 .config(function($routeProvider) {
-	$routeProvider.when('/year/2012', {
-		controller: 'ResultsCtrl2012',
-		templateUrl: 'results/resultsTemplate2012.html'
-	})
-	.when('/year/2011', {
+	$routeProvider.when('/year/2011', {
 		controller: 'ResultsCtrl2011',
 		templateUrl: 'results/resultsTemplate2011.html'
 	})
@@ -48,12 +44,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	.otherwise({
 		redirectTo:'/year/2013'
 	});
-})
-
-.controller('ResultsCtrl2012', function($scope) {
-	$scope.isActive = function(year){
-		return year === "2012";
-	};
 })
 
 .controller('ResultsCtrl2011', function($scope) {
@@ -88,6 +78,19 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	// TODO: why can't I just pass these in to the filter function?
 	$scope.mensTag = "mens";
 	$scope.womensTag = "womens";
+
+	$scope.downloadLinks = {
+		"2013": {
+			"title": "Results (pdf)",
+			"link": "http://s3.amazonaws.com/www.centercityslam.com/Center_City_Slam_2013_results.pdf",
+			"recordsTitle": "Records (pdf)",
+			"recordsLink": "http://s3.amazonaws.com/www.centercityslam.com/results/Records_2013.pdf"
+		},
+		"2012": {
+			"title": "Results (Ronin Racing)",
+			"link": "http://www.roninregistration.com/rowing/results/TimingResults.asp?p=default&pt=rowing&GroupID=88116"
+		}
+	}
 
 	$scope.search = function (rower){
 		if(!$scope.query || $scope.query === ""){
