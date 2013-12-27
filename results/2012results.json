@@ -104,32 +104,41 @@
 					]
 				},
 				{
-					"id": "mcn2012",
-					"name": "Men's Collegiate Novice",
-					"number": 3,
+					"id": "whslw2012",
+					"name": "Women's High School Lightweight",
+					"number": 15,
 					"time": null, 
 					"distance": 2000,
-					"tags": ["mens", "collegiate", "novice"],
+					"tags": ["womens", "highSchool", "lw"],
 					"rowers": [
-						{"rank":1,"affiliation":"Hannah's Salty Dogs","fName":"Marko","lName":"Durica","time":"06:15.5"},
-						{"rank":2,"affiliation":"Hannah's Salty Dogs","fName":"Ryan","lName":"Mallgrave","time":"06:22.6"},
-						{"rank":3,"affiliation":"Hannah's Salty Dogs","fName":"Casimir","lName":"Czworkowksi","time":"06:27.1"},
-						{"rank":4,"affiliation":"Hannah's Salty Dogs","fName":"Hartman","lName":"Byers","time":"06:37.0"},
-						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Jake","lName":"Murphy","time":"06:38.7"},
-						{"rank":6,"affiliation":"Hannah's Salty Dogs","fName":"Cameron","lName":"Staines","time":"06:39.6"},
-						{"rank":7,"affiliation":"Hannah's Salty Dogs","fName":"Jacob","lName":"Smith","time":"06:41.9"},
-						{"rank":8,"affiliation":"Hannah's Salty Dogs","fName":"David","lName":"Gockley","time":"06:42.3"},
-						{"rank":9,"affiliation":"Hannah's Salty Dogs","fName":"Dean","lName":"Hill","time":"06:43.5"},
-						{"rank":10,"affiliation":"TFC","fName":"Joshua","lName":"Kuzo","time":"06:45.1"},
-						{"rank":11,"affiliation":"Hannah's Salty Dogs","fName":"Mahmoud","lName":"Shurbaji","time":"06:46.5"},
-						{"rank":12,"affiliation":"Hannah's Salty Dogs","fName":"Christian","lName":"Ladd","time":"06:47.5"},
-						{"rank":13,"affiliation":"Hannah's Salty Dogs","fName":"James","lName":"Byrne","time":"06:54.6"},
-						{"rank":14,"affiliation":"Hannah's Salty Dogs","fName":"Matt","lName":"Gehret","time":"07:01.6"},
-						{"rank":15,"affiliation":"Hannah's Salty Dogs","fName":"Oleg","lName":"Gratwick","time":"07:04.0"}
+						{"rank":1,"affiliation":"Springside School","fName":"Jennifer","lName":"Sager","time":"07:46.1"},
+						{"rank":2,"affiliation":"Mount Saint Joseph Academy","fName":"Kait","lName":"Loftus","time":"07:54.0"},
+						{"rank":3,"affiliation":"Conestoga Crew Club","fName":"Annie","lName":"Graf","time":"07:54.9"},
+						{"rank":4,"affiliation":"Philadelphia City Rowing","fName":"Oriana","lName":"Marcial","time":"08:02.4"},
+						{"rank":5,"affiliation":"Mount Saint Joseph Academy","fName":"Leah","lName":"Ramos","time":"08:03.7"},
+						{"rank":6,"affiliation":"Mount Saint Joseph Academy","fName":"Michela","lName":"Karrash","time":"08:08.6"},
+						{"rank":7,"affiliation":"Conestoga Crew Club","fName":"Nicole","lName":"DeStefano","time":"08:13.9"},
+						{"rank":8,"affiliation":"Conestoga Crew Club","fName":"Ali","lName":"Siegele","time":"08:14.3"},
+						{"rank":9,"affiliation":"Mount Saint Joseph Academy","fName":"Margaret","lName":"O'Brien","time":"08:14.9"},
+						{"rank":10,"affiliation":"Philadelphia City Rowing","fName":"Eleanor","lName":"St. John Sutton","time":"08:16.6"},
+						{"rank":11,"affiliation":"Conestoga Crew Club","fName":"Emer","lName":"Ryle","time":"08:16.9"},
+						{"rank":12,"affiliation":"Conestoga Crew Club","fName":"Maddie","lName":"Amsterdam","time":"08:22.2"},
+						{"rank":13,"affiliation":"Mount Saint Joseph Academy","fName":"bridget","lName":"FitzPatrick","time":"08:24.5"},
+						{"rank":14,"affiliation":"Conestoga Crew Club","fName":"Katie","lName":"Groves","time":"08:24.6"},
+						{"rank":15,"affiliation":"Mount Saint Joseph Academy","fName":"Maura","lName":"O'Donnell","time":"08:24.9"},
+						{"rank":16,"affiliation":"Mount Saint Joseph Academy","fName":"Maureen","lName":"Flynn","time":"08:26.4"},
+						{"rank":17,"affiliation":"Conestoga Crew Club","fName":"Lara","lName":"Dorfman","time":"08:26.9"},
+						{"rank":18,"affiliation":"Mount Saint Joseph Academy","fName":"Hanna","lName":"Leonard","time":"08:29.7"},
+						{"rank":19,"affiliation":"Mount Saint Joseph Academy","fName":"Elizabeth","lName":"McKernan","time":"08:32.6"},
+						{"rank":20,"affiliation":"Mount Saint Joseph Academy","fName":"Quinn","lName":"DeVore","time":"08:33.5"},
+						{"rank":21,"affiliation":"Conestoga Crew Club","fName":"Sophie","lName":"Bodek","time":"08:34.0"},
+						{"rank":22,"affiliation":"Conestoga Crew Club","fName":"Elizabeth","lName":"Klotzbach","time":"08:39.8"},
+						{"rank":23,"affiliation":"Mount Saint Joseph Academy","fName":"Katherine","lName":"Gresko","time":"08:50.3"},
+						{"rank":24,"affiliation":"Mount Saint Joseph Academy","fName":"Nadine","lName":"Ghantous","time":"08:52.3"},
+						{"rank":25,"affiliation":"Mount Saint Joseph Academy","fName":"Eleanor","lName":"Mcglynn","time":"08:55.4"}
 					]
 				},
 				{
-
 					"id": "mhslw2012",
 					"name": "Men's High School Lightweight",
 					"number": 4,
@@ -174,233 +183,6 @@
 						{"rank":35,"affiliation":"Philadelphia City Rowing","fName":"Jarred","lName":"Shackelford","time":"07:42.2"},
 						{"rank":36,"affiliation":"Lower Merion High School Crew (Ardmore)","fName":"Alex","lName":"Kane","time":"07:46.0"},
 						{"rank":37,"affiliation":"South Jersey Rowing Club","fName":"Nick","lName":"Lario","time":"07:57.2"}
-					]
-				},
-				{
-					"id": "mhs2012",
-					"name": "Men's High School Openweight",
-					"number": 6,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "hs"],
-					"rowers": [
-						{"rank":1,"affiliation":"Bonner Rowing Association","fName":"Charles","lName":"Anderson","time":"06:28.0"},
-						{"rank":2,"affiliation":"Conestoga Crew Club","fName":"Cuyler","lName":"Hamilton","time":"06:32.3"},
-						{"rank":3,"affiliation":"Father Judge High School","fName":"Brian","lName":"Reifsnyder","time":"06:32.6"},
-						{"rank":4,"affiliation":"Oakcrest High School","fName":"nick","lName":"capaldi","time":"06:33.5"},
-						{"rank":5,"affiliation":"La Salle College High School","fName":"Mike","lName":"Fox","time":"06:37.3"},
-						{"rank":6,"affiliation":"Conestoga Crew Club","fName":"Michael","lName":"DiLucca","time":"06:39.7"},
-						{"rank":7,"affiliation":"Haverford School","fName":"Max","lName":"Freundlich","time":"06:44.5"},
-						{"rank":8,"affiliation":"Oakcrest High School","fName":"Jason","lName":"Palermo","time":"06:48.3"},
-						{"rank":9,"affiliation":"Oakcrest High School","fName":"Jeremy","lName":"Nale","time":"06:50.6"},
-						{"rank":10,"affiliation":"Conestoga Crew Club","fName":"Stetson","lName":"Miller","time":"06:52.6"},
-						{"rank":11,"affiliation":"Philadelphia City Rowing","fName":"Uriah","lName":"Myers-Doyle","time":"06:55.9"},
-						{"rank":12,"affiliation":"Oakcrest High School","fName":"Matthew","lName":"Dragotto","time":"06:59.3"},
-						{"rank":13,"affiliation":"Conestoga Crew Club","fName":"Richard","lName":"Stone","time":"07:04.1"},
-						{"rank":14,"affiliation":"Conestoga Crew Club","fName":"Larry","lName":"Caldwell","time":"07:05.7"},
-						{"rank":15,"affiliation":"South Jersey Rowing Club","fName":"Christopher","lName":"Eggstein","time":"07:10.3"},
-						{"rank":16,"affiliation":"South Jersey Rowing Club","fName":"Jack","lName":"Yarnell","time":"07:11.4"},
-						{"rank":17,"affiliation":"Haverford School","fName":"Jake","lName":"Gaskill","time":"07:11.9"},
-						{"rank":18,"affiliation":"Whitemarsh Boat Club","fName":"John","lName":"Monaghan","time":"07:15.9"},
-						{"rank":19,"affiliation":"South Jersey Rowing Club","fName":"Aarons","lName":"Dye","time":"07:19.1"},
-						{"rank":20,"affiliation":"Lower Merion High School Crew (Ardmore)","fName":"Avi","lName":"Molder","time":"07:23.4"}
-					]
-				},
-				{
-					"id": "mma2012",
-					"name": "Men's Masters A (30-39)",
-					"number": 7,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "masters", "mastersA"],
-					"rowers": [
-						{"rank":1,"affiliation":"College Boat Club","fName":"Edward","lName":"Golding","time":"06:19.5"},
-						{"rank":2,"affiliation":"Fairmount Rowing Association","fName":"Jakub","lName":"Svoboda","time":"06:27.0"}
-					]
-				},
-				{
-					"id": "mmb2012",
-					"name": "Men's Masters B (40-49)",
-					"number": 8,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "masters", "mastersB"],
-					"rowers": [
-						{"rank":1,"affiliation":"Passaic River Rowing Association (PRRA)","fName":"John","lName":"Preston III","time":"06:28.7"},
-						{"rank":2,"affiliation":"College Boat Club","fName":"Greg","lName":"Myhr","time":"06:33.2"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"Paul","lName":"Dziewisz","time":"06:42.7"},
-						{"rank":4,"affiliation":"Unaffiliated","fName":"Seymour","lName":"Dilgard-Clark","time":"06:47.1"},
-						{"rank":5,"affiliation":"Fairmount Rowing Association","fName":"Brian","lName":"Perkin","time":"06:49.5"},
-						{"rank":6,"affiliation":"Row Zone Manayunk","fName":"John","lName":"Belanger","time":"06:50.5"},
-						{"rank":7,"affiliation":"Whitemarsh Boat Club","fName":"Steve","lName":"Whalen","time":"06:53.5"},
-						{"rank":8,"affiliation":"University Barge Club","fName":"Steve","lName":"McGuinn","time":"06:59.2"},
-						{"rank":9,"affiliation":"Whitemarsh Boat Club","fName":"John","lName":"Monaghan","time":"06:59.9"},
-						{"rank":10,"affiliation":"University Barge Club","fName":"Richard","lName":"Wegryn","time":"07:02.8"},
-						{"rank":11,"affiliation":"Swan Creek Rowing Club","fName":"Ken","lName":"Foran","time":"07:04.1"},
-						{"rank":12,"affiliation":"Row Zone Manayunk","fName":"James","lName":"Pittman","time":"07:14.3"}
-					]
-				},
-				{
-					"id": "mmc2012",
-					"name": "Men's Masters C (50-59)",
-					"number": 9,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "masters", "mastersC"],
-					"rowers": [
-						{"rank":1,"affiliation":"University Barge Club","fName":"Alex","lName":"Cook","time":"06:48.7"},
-						{"rank":2,"affiliation":"Unaffiliated","fName":"Tim","lName":"Rhynalds","time":"07:07.6"},
-						{"rank":3,"affiliation":"Crescent Boat Club","fName":"Richard","lName":"Hamilton","time":"07:07.7"},
-						{"rank":4,"affiliation":"SAS Alumni Racing","fName":"Thomas","lName":"Schreppler","time":"07:37.5"}
-					]
-				},
-				{
-					"id": "mmd2012",
-					"name": "Men's Masters D (60+)",
-					"number": 10,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "masters", "mastersD"],
-					"rowers": [
-						{"rank":1,"affiliation":"Fairmount Rowing Association","fName":"RED","lName":"SARGENT","time":"07:35.2"},
-						{"rank":2,"affiliation":"Sporting Club at the Bellevue","fName":"Robert","lName":"Levy","time":"07:44.7"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"TonY","lName":"BAROLIN","time":"08:23.2"}
-					]
-				},
-				{
-					"id": "mo2012",
-					"name": "Men's Open",
-					"number": 11,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "open"],
-					"rowers": [
-						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Ross","lName":"Anderson","time":"06:07.1"},
-						{"rank":2,"affiliation":"Unaffiliated","fName":"Lorenzo","lName":"Albala","time":"06:09.6"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"Martin","lName":"Khait","time":"06:12.7"},
-						{"rank":4,"affiliation":"University Barge Club","fName":"Pete","lName":"Seymour","time":"06:14.7"},
-						{"rank":5,"affiliation":"Unaffiliated","fName":"Michael","lName":"Faust","time":"06:19.2"},
-						{"rank":6,"affiliation":"Unaffiliated","fName":"Brian","lName":"Timlin","time":"06:21.2"},
-						{"rank":7,"affiliation":"Unaffiliated","fName":"Sebastian","lName":"Ryan","time":"06:21.5"},
-						{"rank":8,"affiliation":"TFC","fName":"Michael","lName":"Cox","time":"06:22.7"},
-						{"rank":9,"affiliation":"Diamond Street Elite","fName":"Michael","lName":"Mirabella","time":"06:22.8"},
-						{"rank":10,"affiliation":"Unaffiliated","fName":"Kurt","lName":"Linton","time":"06:24.4"},
-						{"rank":11,"affiliation":"Carlisle Kids","fName":"Brian","lName":"Reehill","time":"06:28.9"},
-						{"rank":12,"affiliation":"Drexel Rowing Alumni","fName":"Alan","lName":"Fody","time":"06:30.6"},
-						{"rank":13,"affiliation":"Unaffiliated","fName":"Aleksandar","lName":"Radovic","time":"06:31.7"},
-						{"rank":14,"affiliation":"Crescent Boat Club","fName":"Greg","lName":"Ryan","time":"06:31.9"},
-						{"rank":15,"affiliation":"Unaffiliated","fName":"John","lName":"Pieper","time":"06:33.9"},
-						{"rank":16,"affiliation":"V.K. Partizan","fName":"Filip","lName":"Topalovic","time":"06:35.1"},
-						{"rank":17,"affiliation":"Unaffiliated","fName":"Dylan","lName":"Siegfried","time":"06:35.6"},
-						{"rank":17,"affiliation":"Unaffiliated","fName":"Kevin","lName":"Rorabaugh","time":"06:35.6"},
-						{"rank":19,"affiliation":"Trickenomics Rowing Club","fName":"Patrick","lName":"McGann","time":"06:37.4"},
-						{"rank":20,"affiliation":"Unaffiliated","fName":"Peter","lName":"Eyrich","time":"06:38.0"},
-						{"rank":21,"affiliation":"Unaffiliated","fName":"John","lName":"Boehm","time":"06:39.4"},
-						{"rank":21,"affiliation":"Unaffiliated","fName":"Brian","lName":"Kissam","time":"06:39.4"},
-						{"rank":21,"affiliation":"Unaffiliated","fName":"Ryan","lName":"McSpedon","time":"06:39.4"},
-						{"rank":24,"affiliation":"TFC","fName":"Patrick","lName":"Woodruff","time":"06:39.6"},
-						{"rank":25,"affiliation":"Carlisle Kids","fName":"Mike","lName":"Van Assche","time":"06:39.9"},
-						{"rank":26,"affiliation":"TFC","fName":"Vincent","lName":"DiPentino","time":"06:49.8"},
-						{"rank":27,"affiliation":"Unaffiliated","fName":"Scott","lName":"Nordsick","time":"06:52.0"},
-						{"rank":28,"affiliation":"Unaffiliated","fName":"Stephen","lName":"Lindeman","time":"06:52.3"},
-						{"rank":29,"affiliation":"Unaffiliated","fName":"Nicholas","lName":"Buyse","time":"06:56.6"},
-						{"rank":30,"affiliation":"Drexel Rowing Alumni","fName":"Michael","lName":"Niles","time":"06:57.3"},
-						{"rank":31,"affiliation":"Unaffiliated","fName":"Timothy","lName":"Drake","time":"06:58.8"},
-						{"rank":31,"affiliation":"Unaffiliated","fName":"Marcus","lName":"Demaric","time":"06:58.8"},
-						{"rank":33,"affiliation":"Unaffiliated","fName":"Ross","lName":"Morris","time":"07:10.6"}
-					]
-				},
-				{
-					"id": "modash2012",
-					"name": "Men's Open 500m Dash",
-					"number": 12,
-					"time": null, 
-					"distance": 500,
-					"tags": ["mens", "open", "dash"],
-					"rowers": [
-						{"rank":1,"affiliation":"Unaffiliated","fName":"Djordje","lName":"Vilimanovic","time":"01:22.2"},
-						{"rank":2,"affiliation":"Drexel Rowing Alumni","fName":"Anthony","lName":"Fittipaldi","time":"01:26.0"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"Paul","lName":"Dziewisz","time":"01:26.2"},
-						{"rank":4,"affiliation":"Penn A.C. Rowing Association","fName":"Ross","lName":"Anderson","time":"01:26.5"},
-						{"rank":5,"affiliation":"University Barge Club","fName":"Pete","lName":"Seymour","time":"01:28.1"},
-						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Casimir","lName":"Czworkowski","time":"01:28.1"},
-						{"rank":5,"affiliation":"Unaffiliated","fName":"John","lName":"Belanger","time":"01:28.1"},
-						{"rank":8,"affiliation":"Hannah's Salty Dogs","fName":"Andrew","lName":"Weinstein","time":"01:36.3"},
-						{"rank":9,"affiliation":"Row Zone Manayunk","fName":"James","lName":"Pittman","time":"01:40.4"},
-						{"rank":10,"affiliation":"Unaffiliated","fName":"Marc","lName":"Smith","time":"01:48.7"}
-					]
-				},
-				{
-					"id": "mlw2012",
-					"name": "Men's Open Lightweight",
-					"number": 13,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["mens", "lw"],
-					"rowers": [
-						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Andrew","lName":"Walters","time":"06:30.6"},
-						{"rank":2,"affiliation":"Hannah's Salty Dogs","fName":"Grigorios","lName":"Papadourakis","time":"06:41.7"},
-						{"rank":3,"affiliation":"The Broad Street Bullies","fName":"Chris","lName":"Roberts","time":"06:50.1"},
-						{"rank":4,"affiliation":"Hannah's Salty Dogs","fName":"Brian","lName":"McCabe","time":"06:50.3"},
-						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Butch Gerard","lName":"Eribal","time":"06:55.7"},
-						{"rank":6,"affiliation":"Hannah's Salty Dogs","fName":"Andrew","lName":"Weinstein","time":"07:00.8"},
-						{"rank":7,"affiliation":"Unaffiliated","fName":"Adam","lName":"Cordi","time":"07:00.9"}
-					]
-				},
-				{
-					"id": "wcn2012",
-					"name": "Women's Collegiate Novice",
-					"number": 14,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["womens", "collegiate", "novice"],
-					"rowers": [
-						{"rank":1,"affiliation":"Unaffiliated","fName":"Sierra","lName":"Baca","time":"07:27.4"},
-						{"rank":2,"affiliation":"Unaffiliated","fName":"Olivia","lName":"Babiec","time":"07:33.9"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"Bridget","lName":"Pfeifer","time":"07:39.6"},
-						{"rank":4,"affiliation":"Unaffiliated","fName":"Amanda","lName":"Kleuser","time":"07:44.2"},
-						{"rank":5,"affiliation":"Unaffiliated","fName":"Jayme","lName":"Batcher","time":"07:45.7"},
-						{"rank":6,"affiliation":"Unaffiliated","fName":"Emily","lName":"Gartland","time":"07:48.8"},
-						{"rank":7,"affiliation":"Unaffiliated","fName":"Meredith","lName":"Bracken","time":"07:55.0"},
-						{"rank":8,"affiliation":"Unaffiliated","fName":"Elise","lName":"Levito","time":"08:04.9"},
-						{"rank":9,"affiliation":"Unaffiliated","fName":"Joy","lName":"Yingling","time":"08:10.0"},
-						{"rank":10,"affiliation":"Unaffiliated","fName":"Eleanor","lName":"Phipps","time":"08:16.7"},
-						{"rank":11,"affiliation":"Unaffiliated","fName":"Barbara","lName":"McKenna","time":"08:17.8"}
-					]
-				},
-				{
-					"id": "whslw2012",
-					"name": "Women's High School Lightweight",
-					"number": 15,
-					"time": null, 
-					"distance": 2000,
-					"tags": ["womens", "highSchool", "lw"],
-					"rowers": [
-						{"rank":1,"affiliation":"Springside School","fName":"Jennifer","lName":"Sager","time":"07:46.1"},
-						{"rank":2,"affiliation":"Mount Saint Joseph Academy","fName":"Kait","lName":"Loftus","time":"07:54.0"},
-						{"rank":3,"affiliation":"Conestoga Crew Club","fName":"Annie","lName":"Graf","time":"07:54.9"},
-						{"rank":4,"affiliation":"Philadelphia City Rowing","fName":"Oriana","lName":"Marcial","time":"08:02.4"},
-						{"rank":5,"affiliation":"Mount Saint Joseph Academy","fName":"Leah","lName":"Ramos","time":"08:03.7"},
-						{"rank":6,"affiliation":"Mount Saint Joseph Academy","fName":"Michela","lName":"Karrash","time":"08:08.6"},
-						{"rank":7,"affiliation":"Conestoga Crew Club","fName":"Nicole","lName":"DeStefano","time":"08:13.9"},
-						{"rank":8,"affiliation":"Conestoga Crew Club","fName":"Ali","lName":"Siegele","time":"08:14.3"},
-						{"rank":9,"affiliation":"Mount Saint Joseph Academy","fName":"Margaret","lName":"O'Brien","time":"08:14.9"},
-						{"rank":10,"affiliation":"Philadelphia City Rowing","fName":"Eleanor","lName":"St. John Sutton","time":"08:16.6"},
-						{"rank":11,"affiliation":"Conestoga Crew Club","fName":"Emer","lName":"Ryle","time":"08:16.9"},
-						{"rank":12,"affiliation":"Conestoga Crew Club","fName":"Maddie","lName":"Amsterdam","time":"08:22.2"},
-						{"rank":13,"affiliation":"Mount Saint Joseph Academy","fName":"bridget","lName":"FitzPatrick","time":"08:24.5"},
-						{"rank":14,"affiliation":"Conestoga Crew Club","fName":"Katie","lName":"Groves","time":"08:24.6"},
-						{"rank":15,"affiliation":"Mount Saint Joseph Academy","fName":"Maura","lName":"O'Donnell","time":"08:24.9"},
-						{"rank":16,"affiliation":"Mount Saint Joseph Academy","fName":"Maureen","lName":"Flynn","time":"08:26.4"},
-						{"rank":17,"affiliation":"Conestoga Crew Club","fName":"Lara","lName":"Dorfman","time":"08:26.9"},
-						{"rank":18,"affiliation":"Mount Saint Joseph Academy","fName":"Hanna","lName":"Leonard","time":"08:29.7"},
-						{"rank":19,"affiliation":"Mount Saint Joseph Academy","fName":"Elizabeth","lName":"McKernan","time":"08:32.6"},
-						{"rank":20,"affiliation":"Mount Saint Joseph Academy","fName":"Quinn","lName":"DeVore","time":"08:33.5"},
-						{"rank":21,"affiliation":"Conestoga Crew Club","fName":"Sophie","lName":"Bodek","time":"08:34.0"},
-						{"rank":22,"affiliation":"Conestoga Crew Club","fName":"Elizabeth","lName":"Klotzbach","time":"08:39.8"},
-						{"rank":23,"affiliation":"Mount Saint Joseph Academy","fName":"Katherine","lName":"Gresko","time":"08:50.3"},
-						{"rank":24,"affiliation":"Mount Saint Joseph Academy","fName":"Nadine","lName":"Ghantous","time":"08:52.3"},
-						{"rank":25,"affiliation":"Mount Saint Joseph Academy","fName":"Eleanor","lName":"Mcglynn","time":"08:55.4"}
 					]
 				},
 				{
@@ -461,6 +243,36 @@
 						{"rank":48,"affiliation":"South Jersey Rowing Club","fName":"Shannon","lName":"Brown","time":"08:37.3"},
 						{"rank":49,"affiliation":"South Jersey Rowing Club","fName":"Olivia","lName":"DeMarino","time":"08:41.3"},
 						{"rank":50,"affiliation":"South Jersey Rowing Club","fName":"Jamie","lName":"Goldberg","time":"09:37.1"}
+					]
+				},
+				{
+					"id": "mhs2012",
+					"name": "Men's High School Openweight",
+					"number": 6,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "hs"],
+					"rowers": [
+						{"rank":1,"affiliation":"Bonner Rowing Association","fName":"Charles","lName":"Anderson","time":"06:28.0"},
+						{"rank":2,"affiliation":"Conestoga Crew Club","fName":"Cuyler","lName":"Hamilton","time":"06:32.3"},
+						{"rank":3,"affiliation":"Father Judge High School","fName":"Brian","lName":"Reifsnyder","time":"06:32.6"},
+						{"rank":4,"affiliation":"Oakcrest High School","fName":"nick","lName":"capaldi","time":"06:33.5"},
+						{"rank":5,"affiliation":"La Salle College High School","fName":"Mike","lName":"Fox","time":"06:37.3"},
+						{"rank":6,"affiliation":"Conestoga Crew Club","fName":"Michael","lName":"DiLucca","time":"06:39.7"},
+						{"rank":7,"affiliation":"Haverford School","fName":"Max","lName":"Freundlich","time":"06:44.5"},
+						{"rank":8,"affiliation":"Oakcrest High School","fName":"Jason","lName":"Palermo","time":"06:48.3"},
+						{"rank":9,"affiliation":"Oakcrest High School","fName":"Jeremy","lName":"Nale","time":"06:50.6"},
+						{"rank":10,"affiliation":"Conestoga Crew Club","fName":"Stetson","lName":"Miller","time":"06:52.6"},
+						{"rank":11,"affiliation":"Philadelphia City Rowing","fName":"Uriah","lName":"Myers-Doyle","time":"06:55.9"},
+						{"rank":12,"affiliation":"Oakcrest High School","fName":"Matthew","lName":"Dragotto","time":"06:59.3"},
+						{"rank":13,"affiliation":"Conestoga Crew Club","fName":"Richard","lName":"Stone","time":"07:04.1"},
+						{"rank":14,"affiliation":"Conestoga Crew Club","fName":"Larry","lName":"Caldwell","time":"07:05.7"},
+						{"rank":15,"affiliation":"South Jersey Rowing Club","fName":"Christopher","lName":"Eggstein","time":"07:10.3"},
+						{"rank":16,"affiliation":"South Jersey Rowing Club","fName":"Jack","lName":"Yarnell","time":"07:11.4"},
+						{"rank":17,"affiliation":"Haverford School","fName":"Jake","lName":"Gaskill","time":"07:11.9"},
+						{"rank":18,"affiliation":"Whitemarsh Boat Club","fName":"John","lName":"Monaghan","time":"07:15.9"},
+						{"rank":19,"affiliation":"South Jersey Rowing Club","fName":"Aarons","lName":"Dye","time":"07:19.1"},
+						{"rank":20,"affiliation":"Lower Merion High School Crew (Ardmore)","fName":"Avi","lName":"Molder","time":"07:23.4"}
 					]
 				},
 				{
@@ -525,6 +337,144 @@
 					]
 				},
 				{
+					"id": "mma2012",
+					"name": "Men's Masters A (30-39)",
+					"number": 7,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "masters", "mastersA"],
+					"rowers": [
+						{"rank":1,"affiliation":"College Boat Club","fName":"Edward","lName":"Golding","time":"06:19.5"},
+						{"rank":2,"affiliation":"Fairmount Rowing Association","fName":"Jakub","lName":"Svoboda","time":"06:27.0"}
+					]
+				},
+				{
+					"id": "mmb2012",
+					"name": "Men's Masters B (40-49)",
+					"number": 8,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "masters", "mastersB"],
+					"rowers": [
+						{"rank":1,"affiliation":"Passaic River Rowing Association (PRRA)","fName":"John","lName":"Preston III","time":"06:28.7"},
+						{"rank":2,"affiliation":"College Boat Club","fName":"Greg","lName":"Myhr","time":"06:33.2"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"Paul","lName":"Dziewisz","time":"06:42.7"},
+						{"rank":4,"affiliation":"Unaffiliated","fName":"Seymour","lName":"Dilgard-Clark","time":"06:47.1"},
+						{"rank":5,"affiliation":"Fairmount Rowing Association","fName":"Brian","lName":"Perkin","time":"06:49.5"},
+						{"rank":6,"affiliation":"Row Zone Manayunk","fName":"John","lName":"Belanger","time":"06:50.5"},
+						{"rank":7,"affiliation":"Whitemarsh Boat Club","fName":"Steve","lName":"Whalen","time":"06:53.5"},
+						{"rank":8,"affiliation":"University Barge Club","fName":"Steve","lName":"McGuinn","time":"06:59.2"},
+						{"rank":9,"affiliation":"Whitemarsh Boat Club","fName":"John","lName":"Monaghan","time":"06:59.9"},
+						{"rank":10,"affiliation":"University Barge Club","fName":"Richard","lName":"Wegryn","time":"07:02.8"},
+						{"rank":11,"affiliation":"Swan Creek Rowing Club","fName":"Ken","lName":"Foran","time":"07:04.1"},
+						{"rank":12,"affiliation":"Row Zone Manayunk","fName":"James","lName":"Pittman","time":"07:14.3"}
+					]
+				},
+				{
+					"id": "mmc2012",
+					"name": "Men's Masters C (50-59)",
+					"number": 9,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "masters", "mastersC"],
+					"rowers": [
+						{"rank":1,"affiliation":"University Barge Club","fName":"Alex","lName":"Cook","time":"06:48.7"},
+						{"rank":2,"affiliation":"Unaffiliated","fName":"Tim","lName":"Rhynalds","time":"07:07.6"},
+						{"rank":3,"affiliation":"Crescent Boat Club","fName":"Richard","lName":"Hamilton","time":"07:07.7"},
+						{"rank":4,"affiliation":"SAS Alumni Racing","fName":"Thomas","lName":"Schreppler","time":"07:37.5"}
+					]
+				},
+				{
+					"id": "mmd2012",
+					"name": "Men's Masters D (60+)",
+					"number": 10,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "masters", "mastersD"],
+					"rowers": [
+						{"rank":1,"affiliation":"Fairmount Rowing Association","fName":"RED","lName":"SARGENT","time":"07:35.2"},
+						{"rank":2,"affiliation":"Sporting Club at the Bellevue","fName":"Robert","lName":"Levy","time":"07:44.7"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"TonY","lName":"BAROLIN","time":"08:23.2"}
+					]
+				},
+				{
+					"id": "wcn2012",
+					"name": "Women's Collegiate Novice",
+					"number": 14,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["womens", "collegiate", "novice"],
+					"rowers": [
+						{"rank":1,"affiliation":"Unaffiliated","fName":"Sierra","lName":"Baca","time":"07:27.4"},
+						{"rank":2,"affiliation":"Unaffiliated","fName":"Olivia","lName":"Babiec","time":"07:33.9"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"Bridget","lName":"Pfeifer","time":"07:39.6"},
+						{"rank":4,"affiliation":"Unaffiliated","fName":"Amanda","lName":"Kleuser","time":"07:44.2"},
+						{"rank":5,"affiliation":"Unaffiliated","fName":"Jayme","lName":"Batcher","time":"07:45.7"},
+						{"rank":6,"affiliation":"Unaffiliated","fName":"Emily","lName":"Gartland","time":"07:48.8"},
+						{"rank":7,"affiliation":"Unaffiliated","fName":"Meredith","lName":"Bracken","time":"07:55.0"},
+						{"rank":8,"affiliation":"Unaffiliated","fName":"Elise","lName":"Levito","time":"08:04.9"},
+						{"rank":9,"affiliation":"Unaffiliated","fName":"Joy","lName":"Yingling","time":"08:10.0"},
+						{"rank":10,"affiliation":"Unaffiliated","fName":"Eleanor","lName":"Phipps","time":"08:16.7"},
+						{"rank":11,"affiliation":"Unaffiliated","fName":"Barbara","lName":"McKenna","time":"08:17.8"}
+					]
+				},
+				{
+					"id": "mcn2012",
+					"name": "Men's Collegiate Novice",
+					"number": 3,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "collegiate", "novice"],
+					"rowers": [
+						{"rank":1,"affiliation":"Hannah's Salty Dogs","fName":"Marko","lName":"Durica","time":"06:15.5"},
+						{"rank":2,"affiliation":"Hannah's Salty Dogs","fName":"Ryan","lName":"Mallgrave","time":"06:22.6"},
+						{"rank":3,"affiliation":"Hannah's Salty Dogs","fName":"Casimir","lName":"Czworkowksi","time":"06:27.1"},
+						{"rank":4,"affiliation":"Hannah's Salty Dogs","fName":"Hartman","lName":"Byers","time":"06:37.0"},
+						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Jake","lName":"Murphy","time":"06:38.7"},
+						{"rank":6,"affiliation":"Hannah's Salty Dogs","fName":"Cameron","lName":"Staines","time":"06:39.6"},
+						{"rank":7,"affiliation":"Hannah's Salty Dogs","fName":"Jacob","lName":"Smith","time":"06:41.9"},
+						{"rank":8,"affiliation":"Hannah's Salty Dogs","fName":"David","lName":"Gockley","time":"06:42.3"},
+						{"rank":9,"affiliation":"Hannah's Salty Dogs","fName":"Dean","lName":"Hill","time":"06:43.5"},
+						{"rank":10,"affiliation":"TFC","fName":"Joshua","lName":"Kuzo","time":"06:45.1"},
+						{"rank":11,"affiliation":"Hannah's Salty Dogs","fName":"Mahmoud","lName":"Shurbaji","time":"06:46.5"},
+						{"rank":12,"affiliation":"Hannah's Salty Dogs","fName":"Christian","lName":"Ladd","time":"06:47.5"},
+						{"rank":13,"affiliation":"Hannah's Salty Dogs","fName":"James","lName":"Byrne","time":"06:54.6"},
+						{"rank":14,"affiliation":"Hannah's Salty Dogs","fName":"Matt","lName":"Gehret","time":"07:01.6"},
+						{"rank":15,"affiliation":"Hannah's Salty Dogs","fName":"Oleg","lName":"Gratwick","time":"07:04.0"}
+					]
+				},
+				{
+					"id": "wlw2012",
+					"name": "Women's Open Lightweight",
+					"number": 24,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["womens", "lw"],
+					"rowers": [
+						{"rank":1,"affiliation":"Unaffiliated","fName":"Erica","lName":"Tibbetts","time":"07:40.6"},
+						{"rank":2,"affiliation":"Unaffiliated","fName":"Brooke","lName":"Wertan","time":"08:26.1"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"Alicia","lName":"Hoy","time":"08:40.5"},
+						{"rank":4,"affiliation":"Unaffiliated","fName":"Catherine","lName":"Hamilton","time":"09:33.5"}
+					]
+				},
+				{
+					"id": "mlw2012",
+					"name": "Men's Open Lightweight",
+					"number": 13,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "lw"],
+					"rowers": [
+						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Andrew","lName":"Walters","time":"06:30.6"},
+						{"rank":2,"affiliation":"Hannah's Salty Dogs","fName":"Grigorios","lName":"Papadourakis","time":"06:41.7"},
+						{"rank":3,"affiliation":"The Broad Street Bullies","fName":"Chris","lName":"Roberts","time":"06:50.1"},
+						{"rank":4,"affiliation":"Hannah's Salty Dogs","fName":"Brian","lName":"McCabe","time":"06:50.3"},
+						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Butch Gerard","lName":"Eribal","time":"06:55.7"},
+						{"rank":6,"affiliation":"Hannah's Salty Dogs","fName":"Andrew","lName":"Weinstein","time":"07:00.8"},
+						{"rank":7,"affiliation":"Unaffiliated","fName":"Adam","lName":"Cordi","time":"07:00.9"}
+					]
+				},
+				{
 					"id": "wo2012",
 					"name": "Women's Open",
 					"number": 22,
@@ -560,6 +510,49 @@
 					]
 				},
 				{
+					"id": "mo2012",
+					"name": "Men's Open",
+					"number": 11,
+					"time": null, 
+					"distance": 2000,
+					"tags": ["mens", "open"],
+					"rowers": [
+						{"rank":1,"affiliation":"Penn A.C. Rowing Association","fName":"Ross","lName":"Anderson","time":"06:07.1"},
+						{"rank":2,"affiliation":"Unaffiliated","fName":"Lorenzo","lName":"Albala","time":"06:09.6"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"Martin","lName":"Khait","time":"06:12.7"},
+						{"rank":4,"affiliation":"University Barge Club","fName":"Pete","lName":"Seymour","time":"06:14.7"},
+						{"rank":5,"affiliation":"Unaffiliated","fName":"Michael","lName":"Faust","time":"06:19.2"},
+						{"rank":6,"affiliation":"Unaffiliated","fName":"Brian","lName":"Timlin","time":"06:21.2"},
+						{"rank":7,"affiliation":"Unaffiliated","fName":"Sebastian","lName":"Ryan","time":"06:21.5"},
+						{"rank":8,"affiliation":"TFC","fName":"Michael","lName":"Cox","time":"06:22.7"},
+						{"rank":9,"affiliation":"Diamond Street Elite","fName":"Michael","lName":"Mirabella","time":"06:22.8"},
+						{"rank":10,"affiliation":"Unaffiliated","fName":"Kurt","lName":"Linton","time":"06:24.4"},
+						{"rank":11,"affiliation":"Carlisle Kids","fName":"Brian","lName":"Reehill","time":"06:28.9"},
+						{"rank":12,"affiliation":"Drexel Rowing Alumni","fName":"Alan","lName":"Fody","time":"06:30.6"},
+						{"rank":13,"affiliation":"Unaffiliated","fName":"Aleksandar","lName":"Radovic","time":"06:31.7"},
+						{"rank":14,"affiliation":"Crescent Boat Club","fName":"Greg","lName":"Ryan","time":"06:31.9"},
+						{"rank":15,"affiliation":"Unaffiliated","fName":"John","lName":"Pieper","time":"06:33.9"},
+						{"rank":16,"affiliation":"V.K. Partizan","fName":"Filip","lName":"Topalovic","time":"06:35.1"},
+						{"rank":17,"affiliation":"Unaffiliated","fName":"Dylan","lName":"Siegfried","time":"06:35.6"},
+						{"rank":17,"affiliation":"Unaffiliated","fName":"Kevin","lName":"Rorabaugh","time":"06:35.6"},
+						{"rank":19,"affiliation":"Trickenomics Rowing Club","fName":"Patrick","lName":"McGann","time":"06:37.4"},
+						{"rank":20,"affiliation":"Unaffiliated","fName":"Peter","lName":"Eyrich","time":"06:38.0"},
+						{"rank":21,"affiliation":"Unaffiliated","fName":"John","lName":"Boehm","time":"06:39.4"},
+						{"rank":21,"affiliation":"Unaffiliated","fName":"Brian","lName":"Kissam","time":"06:39.4"},
+						{"rank":21,"affiliation":"Unaffiliated","fName":"Ryan","lName":"McSpedon","time":"06:39.4"},
+						{"rank":24,"affiliation":"TFC","fName":"Patrick","lName":"Woodruff","time":"06:39.6"},
+						{"rank":25,"affiliation":"Carlisle Kids","fName":"Mike","lName":"Van Assche","time":"06:39.9"},
+						{"rank":26,"affiliation":"TFC","fName":"Vincent","lName":"DiPentino","time":"06:49.8"},
+						{"rank":27,"affiliation":"Unaffiliated","fName":"Scott","lName":"Nordsick","time":"06:52.0"},
+						{"rank":28,"affiliation":"Unaffiliated","fName":"Stephen","lName":"Lindeman","time":"06:52.3"},
+						{"rank":29,"affiliation":"Unaffiliated","fName":"Nicholas","lName":"Buyse","time":"06:56.6"},
+						{"rank":30,"affiliation":"Drexel Rowing Alumni","fName":"Michael","lName":"Niles","time":"06:57.3"},
+						{"rank":31,"affiliation":"Unaffiliated","fName":"Timothy","lName":"Drake","time":"06:58.8"},
+						{"rank":31,"affiliation":"Unaffiliated","fName":"Marcus","lName":"Demaric","time":"06:58.8"},
+						{"rank":33,"affiliation":"Unaffiliated","fName":"Ross","lName":"Morris","time":"07:10.6"}
+					]
+				},
+				{
 					"id": "wodash2012",
 					"name": "Women's Open 500m Dash",
 					"number": 23,
@@ -576,19 +569,25 @@
 					]
 				},
 				{
-					"id": "wlw2012",
-					"name": "Women's Open Lightweight",
-					"number": 24,
+					"id": "modash2012",
+					"name": "Men's Open 500m Dash",
+					"number": 12,
 					"time": null, 
-					"distance": 2000,
-					"tags": ["womens", "lw"],
+					"distance": 500,
+					"tags": ["mens", "open", "dash"],
 					"rowers": [
-						{"rank":1,"affiliation":"Unaffiliated","fName":"Erica","lName":"Tibbetts","time":"07:40.6"},
-						{"rank":2,"affiliation":"Unaffiliated","fName":"Brooke","lName":"Wertan","time":"08:26.1"},
-						{"rank":3,"affiliation":"Unaffiliated","fName":"Alicia","lName":"Hoy","time":"08:40.5"},
-						{"rank":4,"affiliation":"Unaffiliated","fName":"Catherine","lName":"Hamilton","time":"09:33.5"}
+						{"rank":1,"affiliation":"Unaffiliated","fName":"Djordje","lName":"Vilimanovic","time":"01:22.2"},
+						{"rank":2,"affiliation":"Drexel Rowing Alumni","fName":"Anthony","lName":"Fittipaldi","time":"01:26.0"},
+						{"rank":3,"affiliation":"Unaffiliated","fName":"Paul","lName":"Dziewisz","time":"01:26.2"},
+						{"rank":4,"affiliation":"Penn A.C. Rowing Association","fName":"Ross","lName":"Anderson","time":"01:26.5"},
+						{"rank":5,"affiliation":"University Barge Club","fName":"Pete","lName":"Seymour","time":"01:28.1"},
+						{"rank":5,"affiliation":"Hannah's Salty Dogs","fName":"Casimir","lName":"Czworkowski","time":"01:28.1"},
+						{"rank":5,"affiliation":"Unaffiliated","fName":"John","lName":"Belanger","time":"01:28.1"},
+						{"rank":8,"affiliation":"Hannah's Salty Dogs","fName":"Andrew","lName":"Weinstein","time":"01:36.3"},
+						{"rank":9,"affiliation":"Row Zone Manayunk","fName":"James","lName":"Pittman","time":"01:40.4"},
+						{"rank":10,"affiliation":"Unaffiliated","fName":"Marc","lName":"Smith","time":"01:48.7"}
 					]
-				}
+				}			
 			]
 		}
 	]
