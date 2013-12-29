@@ -21,11 +21,7 @@ angular.module('resultsFilters', [])
 angular.module('results', ['ngRoute','resultsFilters'])
 
 .config(function($routeProvider) {
-	$routeProvider.when('/year/2011', {
-		controller: 'ResultsCtrl2011',
-		templateUrl: 'results/resultsTemplate2011.html'
-	})
-	.when('/year/2010', {
+	$routeProvider.when('/year/2010', {
 		controller: 'ResultsCtrl2010',
 		templateUrl: 'results/resultsTemplate2010.html'
 	})
@@ -44,12 +40,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	.otherwise({
 		redirectTo:'/year/2013'
 	});
-})
-
-.controller('ResultsCtrl2011', function($scope) {
-	$scope.isActive = function(year){
-		return year === "2011";
-	};
 })
 
 .controller('ResultsCtrl2010', function($scope) {
@@ -89,6 +79,10 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		"2012": {
 			"title": "Results (Ronin Racing)",
 			"link": "http://www.roninregistration.com/rowing/results/TimingResults.asp?p=default&pt=rowing&GroupID=88116"
+		},
+		"2011": {
+			"title": "Results (pdf)",
+			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/Center_City_Slam_2011_results.pdf"
 		}
 	}
 
