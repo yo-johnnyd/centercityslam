@@ -100,6 +100,10 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		return year === $scope.year;
 	};
 
+	$scope.timeParse = function(raceTime) {
+		return raceTime.substring(0,7);
+	}
+
 	$('#filter-form').on('submit', function(event){
 		console.log('submit');
 		document.activeElement.blur();
