@@ -21,23 +21,13 @@ angular.module('resultsFilters', [])
 angular.module('results', ['ngRoute','resultsFilters'])
 
 .config(function($routeProvider) {
-	$routeProvider.when('/year/2008', {
-		controller: 'ResultsCtrl2008',
-		templateUrl: 'results/resultsTemplate2008.html'
-	})
-	.when('/year/:year', {
+	$routeProvider.when('/year/:year', {
 		controller:'ResultsCtrl',
 		templateUrl:'results/resultsTemplate.html'
 	})
 	.otherwise({
 		redirectTo:'/year/2013'
 	});
-})
-
-.controller('ResultsCtrl2008', function($scope) {
-	$scope.isActive = function(year){
-		return year === "2008";
-	};
 })
 
 .controller('ResultsCtrl', function($scope, $http, $routeParams) {
@@ -71,6 +61,10 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		"2009": {
 			"title": "Results (xls)",
 			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/Center+City+Slam+Results+2009.xls"
+		},
+		"2008": {
+			"title": "Results (pdf)",
+			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/2008_Results.pdf"
 		}
 	}
 
