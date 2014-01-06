@@ -25,6 +25,10 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		controller:'ResultsCtrl',
 		templateUrl:'results/resultsTemplate.html'
 	})
+	.when('records', {
+		controller:'ResultsCtrl',
+		templateUrl:'results/resultsTemplate.html'
+	})
 	.otherwise({
 		redirectTo:'/year/2013'
 	});
@@ -44,7 +48,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 			"title": "Results (pdf)",
 			"link": "http://s3.amazonaws.com/www.centercityslam.com/Center_City_Slam_2013_results.pdf",
 			"recordsTitle": "Records (pdf)",
-			"recordsLink": "http://s3.amazonaws.com/www.centercityslam.com/results/Records_2013.pdf"
+			"recordsLink": "Records_2013.pdf"
 		},
 		"2012": {
 			"title": "Results (Ronin Racing)",
@@ -52,19 +56,23 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		},
 		"2011": {
 			"title": "Results (pdf)",
-			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/Center_City_Slam_2011_results.pdf"
+			"link": "Center_City_Slam_2011_results.pdf"
 		},
 		"2010": {
 			"title": "Results (xls)",
-			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/Center_City_Slam_2010results.xls"
+			"link": "Center_City_Slam_2010results.xls"
 		},
 		"2009": {
 			"title": "Results (xls)",
-			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/Center+City+Slam+Results+2009.xls"
+			"link": "Center+City+Slam+Results+2009.xls"
 		},
 		"2008": {
 			"title": "Results (pdf)",
-			"link": "http://s3.amazonaws.com/www.centercityslam.com/results/2008_Results.pdf"
+			"link": "2008_Results.pdf"
+		},
+		"records" : {
+			"title": "Records (pdf)",
+			"link": "Records_2013.pdf"
 		}
 	}
 

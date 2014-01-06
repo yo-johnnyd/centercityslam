@@ -1,0 +1,53 @@
+{
+    "event" : "centerCitySlam",
+    "years": [
+      {        
+        "year": "2009",
+        "races": [
+                                {
+                                        "id": "wr2013",
+                                        "name": "Women's Records",
+                                        "number": 1,
+                                        "tags": ["womens","records"],
+                                        "rowers": [
+{"event": "Girls' Youth u14","fName":"Devon","lName":"Eliason","affiliation":"SJRC","time":"08:35.5","year":"2012"},
+{"event": "Women's HS Novice","fName":"Margarita","lName":"Amihava","affiliation":"Philadelphia City Rowing","time":"07:41.6","year":"2013"},
+{"event": "Women's HS LWT","fName":"Jackie","lName":"Lees","affiliation":"Archbishop Prendergast","time":"07:24.4","year":"2009"},
+{"event": "Women's HS Open","fName":"Victoria","lName":"Gevurtz","affiliation":"Baldwin School Crew","time":"07:12.2","year":"2013"},
+{"event": "Women's Masters A","fName":"Karen","lName":"Hommer","affiliation":"Philadelphia Flying Phoenix","time":"07:41.5","year":"2013"},
+{"event": "Women's Masters B","fName":"Emilia","lName":"Rastrick","affiliation":"Philadelphia Flying Phoenix","time":"07:44.6","year":"2013"},
+{"event": "Women's Masters C","fName":"Claudia","lName":"Pavlak","affiliation":"Philadelphia Flying Phoenix","time":"07:46.0","year":"2008"},
+{"event": "Women's Masters D","fName":"Claudia","lName":"Pavlak","affiliation":"Philadelphia Flying Phoenix","time":"07:52.8","year":"2011"},
+{"event": "Women's Collegiate Novice","fName":"Kayla","lName":"Wroblesky","affiliation":"Unaffiliated","time":"07:27.4","year":"2011"},
+{"event": "Women's Collegiate Novice","fName":"Sierra","lName":"Baca","affiliation":"Unaffiliated","time":"07:27.4","year":"2012"},
+{"event": "Women's Open LWT","fName":"Claire","lName":"McConnell","affiliation":"Penn AC","time":"07:32.7","year":"2011"},
+{"event": "Women's Open","fName":"Ann","lName":"Holmes","affiliation":"Unaffiliated","time":"06:59.4","year":"2011"},
+{"event": "Women's Open 500m","fName":"Taylor","lName":"Brown","affiliation":"Unaffiliated","time":"01:38.6","year":"2013"}
+                                        ]
+                                },
+                                {
+                                        "id": "m2009",
+                                        "name": "Women's Results",
+                                        "number": 2,
+                                        "time": null, 
+                                        "distance": 2000,
+                                        "tags": ["mens","records"],
+                                        "rowers": [
+{"event":"Boys' Youth u14","fName":"Andy","lName":"LaBree","affiliation":"SJRC","time":"07:36.2","year":"2013"},
+{"event":"Men's HS Novice","fName":"Jordan","lName":"Siegal","affiliation":"Haverford School","time":"06:56.7","year":"2012"},
+{"event":"Men's HS LWT","fName":"Brenden","lName":"Keegans","affiliation":"St. Joseph's Prep School","time":"06:39.9","year":"2013"},
+{"event":"Men's HS Open","fName":"Jonathan","lName":"Ghaul","affiliation":"St. Joseph's Prep School","time":"06:18.0","year":"2013"},
+{"event":"Men's Masters A","fName":"Edward","lName":"Golding","affiliation":"College Boat Club","time":"06:19.5","year":"2012"},
+{"event":"Men's Masters B","fName":"Greg","lName":"Myhr","affiliation":"College Boat Club","time":"06:27.5","year":"2011"},
+{"event":"Men's Masters C","fName":"Curtis","lName":"Kaufmann","affiliation":"Fairmount","time":"06:45.0","year":"2010"},
+{"event":"Men's Masters D","fName":"Jim","lName":"Castellan","affiliation":"Fairmount","time":"06:44.2","year":"2010"},
+{"event":"Men's Collegiate Novice","fName":"Marko","lName":"Durica","affiliation":"Hannah's Salty Dogs","time":"06:15.5","year":"2012"},
+{"event":"Men's Open LWT","fName":"Mike","lName":"Niles","affiliation":"Unaffiliated","time":"06:30.4","year":"2009"},
+{"event":"Men's Open","fName":"Steve","lName":"Kasprzyk","affiliation":"DRAG / Penn AC","time":"05:54.9","year":"2011"},
+{"event":"Men's Open 500m","fName":"Taylor","lName":"Brown","affiliation":"Penn AC","time":"01:21.9","year":"2011"}
+                                        ]
+                                }                        
+                        ]
+                }
+        ]
+}
