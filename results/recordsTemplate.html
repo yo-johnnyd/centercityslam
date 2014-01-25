@@ -47,25 +47,28 @@
   </tbody>
 </table>
 
+
 <div style="overflow:auto;" ng-repeat="race in races" id="{{race.id}}">
   <table class="table table-striped table-condensed" ng-show="(race.rowers|filter:search).length">
     <caption><strong>{{race.name}}</strong> <a class="race-link" ng-href="" ng-click="scrollToTop()">top</a></caption>
     <thead>
       <tr>
-        <th></th>
+        <th>Event</th>
         <th>First</th>
         <th>Last</th>
         <th>Time</th>
         <th>Affiliation</th>
+        <th>Year</th>
       </tr>
     </thead>
     <tbody>
       <tr ng-repeat="rower in race.rowers | filter:search">
-        <td>{{rower.rank}}</td>
+        <td>{{rower.event}}</td>
         <td>{{rower.fName}}</td>
         <td>{{rower.lName}}</td>
         <td>{{timeParse(rower.time)}}</td>
         <td>{{rower.affiliation}}</td>
+        <td>{{rower.year}}</td>
       </tr>
     </tbody>
   </table>

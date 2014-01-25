@@ -25,12 +25,72 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		controller:'ResultsCtrl',
 		templateUrl:'results/resultsTemplate.html'
 	})
-	.when('records', {
-		controller:'ResultsCtrl',
-		templateUrl:'results/resultsTemplate.html'
+	.when('/records/:year', {
+		controller:'RecordsCtrl',
+		templateUrl:'results/recordsTemplate.html'
 	})
 	.otherwise({
 		redirectTo:'/year/2013'
+	});
+})
+
+.controller('RecordsCtrl', function($scope, $http, $routeParams) {
+	var menuHeight = $('#resultsMenu').height(),
+		yearMenuOffset = $('#yearMenu').offset.top;
+
+	$scope.year = $routeParams.year;
+		// TODO: why can't I just pass these in to the filter function?
+	$scope.mensTag = "mens";
+	$scope.womensTag = "womens";
+
+	$scope.downloadLinks = {
+		"2013" : {
+			"title": "Records (pdf)",
+			"link": "Records_2013.pdf"
+		}
+	};
+
+	$scope.search = function (rower){
+		if(!$scope.query || $scope.query === ""){
+			return true;
+		}
+		var lcQuery = $scope.query.toLowerCase(),
+			lcFName = rower.fName.toLowerCase(),
+			lcLName = rower.lName.toLowerCase(),
+			lcFullName = lcFName + ' ' + lcLName,
+			lcAffiliation = rower.affiliation.toLowerCase();
+
+		if(lcFName.indexOf(lcQuery) != -1 || 
+			lcLName.indexOf(lcQuery) != -1 ||
+			lcFullName.indexOf(lcQuery) != -1 ||
+			lcAffiliation.indexOf(lcQuery) != -1){
+			return true;
+		}
+		return false;
+	};
+
+	$scope.scrollToRace = function(raceId) {
+		// TODO need a way to figure out how to do this differently for mobile?
+		$("body,html").animate({scrollTop: $('#' + raceId).offset().top - menuHeight}, "slow");
+	};
+
+	// TODO: does this need to animate? doesn't seem to work anyways
+	$scope.scrollToTop = function() {
+		$("body,html").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
+	};
+
+	// menu context check	
+	$scope.isActive = function(menuItem){
+		return menuItem === 'records';
+	};
+
+	$scope.timeParse = function(raceTime) {
+		return raceTime.substring(0,7);
+	}
+
+	// make request
+	$http.get('results/' + $routeParams.year + 'records.json').success(function(data) {
+		$scope.races = data.years[0].races;
 	});
 })
 
@@ -69,10 +129,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		"2008": {
 			"title": "Results (pdf)",
 			"link": "2008_Results.pdf"
-		},
-		"records" : {
-			"title": "Records (pdf)",
-			"link": "Records_2013.pdf"
 		}
 	}
 
