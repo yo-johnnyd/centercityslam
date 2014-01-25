@@ -35,11 +35,12 @@ angular.module('results', ['ngRoute','resultsFilters'])
 })
 
 .controller('RecordsCtrl', function($scope, $http, $routeParams) {
+	// TODO tons of dup code in here
 	var menuHeight = $('#resultsMenu').height(),
 		yearMenuOffset = $('#yearMenu').offset.top;
 
 	$scope.year = $routeParams.year;
-		// TODO: why can't I just pass these in to the filter function?
+	// TODO: why can't I just pass these in to the filter function?
 	$scope.mensTag = "mens";
 	$scope.womensTag = "womens";
 
@@ -87,6 +88,11 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.timeParse = function(raceTime) {
 		return raceTime.substring(0,7);
 	}
+
+	$('#filter-form').on('submit', function(event){
+		console.log('submit');
+		document.activeElement.blur();
+	});
 
 	// make request
 	$http.get('results/' + $routeParams.year + 'records.json').success(function(data) {
