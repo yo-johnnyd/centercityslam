@@ -47,7 +47,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.downloadLinks = {
 		"2013" : {
 			"title": "Records (pdf)",
-			"link": "Records_2013.pdf"
+			"link": "results/Records_2013.pdf"
 		}
 	};
 
@@ -112,7 +112,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.downloadLinks = {
 		"2013": {
 			"title": "Results (pdf)",
-			"link": "http://s3.amazonaws.com/www.centercityslam.com/Center_City_Slam_2013_results.pdf",
+			"link": "results/Center_City_Slam_2013_results.pdf",
 			"recordsTitle": "Records (pdf)",
 			"recordsLink": "Records_2013.pdf"
 		},
@@ -122,19 +122,19 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		},
 		"2011": {
 			"title": "Results (pdf)",
-			"link": "Center_City_Slam_2011_results.pdf"
+			"link": "results/Center_City_Slam_2011_results.pdf"
 		},
 		"2010": {
 			"title": "Results (xls)",
-			"link": "Center_City_Slam_2010results.xls"
+			"link": "results/Center_City_Slam_2010results.xls"
 		},
 		"2009": {
 			"title": "Results (xls)",
-			"link": "Center+City+Slam+Results+2009.xls"
+			"link": "results/Center+City+Slam+Results+2009.xls"
 		},
 		"2008": {
 			"title": "Results (pdf)",
-			"link": "2008_Results.pdf"
+			"link": "results/2008_Results.pdf"
 		}
 	}
 
