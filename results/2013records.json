@@ -2,7 +2,7 @@
     "event" : "centerCitySlam",
     "years": [
       {        
-        "year": "2009",
+        "year": "2013",
         "races": [
                                 {
                                         "id": "wr2013",
@@ -27,7 +27,7 @@
                                 },
                                 {
                                         "id": "m2009",
-                                        "name": "Men's Results",
+                                        "name": "Men's Records",
                                         "number": 2,
                                         "time": null, 
                                         "distance": 2000,

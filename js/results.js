@@ -30,7 +30,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		templateUrl:'results/recordsTemplate.html'
 	})
 	.otherwise({
-		redirectTo:'/year/2013'
+		redirectTo:'/year/2014'
 	});
 })
 
