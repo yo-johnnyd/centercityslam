@@ -731,11 +731,11 @@
                                 },
 {
                                         "id": "cc2014",
-                                        "name": "Corporate Challenge",
+                                        "name": "Corporate Challenge (Coed)",
                                         "number": 25,
                                         "tags": ["corporate","mens","womens"],
-                                        "rowers": [{"rank":1,"fName":null,"lName":null,"affiliation":"Black Rock","time":"01:46.30"},
-{"rank":2,"fName":null,"lName":null,"affiliation":"DRAG","time":"01:47.00"}]
+                                        "rowers": [{"rank":1,"fName":"_","lName":"_","affiliation":"Black Rock","time":"01:46.30"},
+{"rank":2,"fName":"_","lName":"_","affiliation":"DRAG","time":"01:47.00"}]
                                 }             
                         ]
                 }
