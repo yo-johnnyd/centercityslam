@@ -90,7 +90,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	}
 
 	$('#filter-form').on('submit', function(event){
-		console.log('submit');
 		document.activeElement.blur();
 	});
 
@@ -175,7 +174,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	}
 
 	$('#filter-form').on('submit', function(event){
-		console.log('submit');
 		document.activeElement.blur();
 	});
 
