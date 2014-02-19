@@ -1,20 +1,63 @@
+/*
+*	TODOS:
+* -------------------------------------1). get search working as a filter
+* 2). don't filter 4 times
+* 3). make anything hardcoded a constant
+* 4). better way to do scrollToRace
+* 5). tests
+* 6). pipe dream: route includes race id
+*/
+
+
 angular.module('resultsFilters', [])
 .filter('taggedRaces', function(){
-	return function(events, tagName) {
-		var taggedEvents = [];
-		angular.forEach(events, function(event){
-			var isTagged = false;
-			// TODO: this should be more of an UNDERSCRORE FIND
-			angular.forEach(event.tags, function(tag){
-				if(tag === tagName){
-					isTagged = true;
+	return function(races, tagName) {
+		var taggedRaces = [];
+		if(races){
+			// using for loop instead of angular.foreach because this http://jsperf.com/angular-foreach-vs-native-for-loop/3
+			for(var i=0; i<races.length; i++){
+				var isTagged = false,
+					thisRace = races[i];
+				if(thisRace.tags){
+					for(var j=0; j<thisRace.tags.length; j++){
+						if(thisRace.tags[j] === tagName){
+							isTagged = true;
+							break;
+						}
+					}
 				}
-			});
-			if(isTagged){
-				taggedEvents.push(event);
+				if(isTagged){
+					taggedRaces.push(thisRace);
+				}
 			}
-		});
-		return taggedEvents;
+		}
+		return taggedRaces;
+	};
+})
+.filter('rowerOrAffiliation', function(){
+	return function(rowers, rowerOrAffiliation) {
+		var matchingRowers = [];
+		if(!rowerOrAffiliation || rowerOrAffiliation === ""){
+			return rowers;
+		}
+		if(rowers){
+			for(var i=0; i<rowers.length; i++){
+				var rower = rowers[i],
+					lcQuery = rowerOrAffiliation.toLowerCase(),
+					lcFName = rower.fName.toLowerCase(),
+					lcLName = rower.lName.toLowerCase(),
+					lcFullName = lcFName + ' ' + lcLName,
+					lcAffiliation = rower.affiliation.toLowerCase();
+
+				if(lcFName.indexOf(lcQuery) != -1 || 
+					lcLName.indexOf(lcQuery) != -1 ||
+					lcFullName.indexOf(lcQuery) != -1 ||
+					lcAffiliation.indexOf(lcQuery) != -1){
+					matchingRowers.push(rower);
+				}
+			}
+		}
+		return matchingRowers;
 	};
 });
 
@@ -49,25 +92,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 			"title": "Records (pdf)",
 			"link": "results/Records_2013.pdf"
 		}
-	};
-
-	$scope.search = function (rower){
-		if(!$scope.query || $scope.query === ""){
-			return true;
-		}
-		var lcQuery = $scope.query.toLowerCase(),
-			lcFName = rower.fName.toLowerCase(),
-			lcLName = rower.lName.toLowerCase(),
-			lcFullName = lcFName + ' ' + lcLName,
-			lcAffiliation = rower.affiliation.toLowerCase();
-
-		if(lcFName.indexOf(lcQuery) != -1 || 
-			lcLName.indexOf(lcQuery) != -1 ||
-			lcFullName.indexOf(lcQuery) != -1 ||
-			lcAffiliation.indexOf(lcQuery) != -1){
-			return true;
-		}
-		return false;
 	};
 
 	$scope.scrollToRace = function(raceId) {
@@ -136,25 +160,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 			"link": "results/2008_Results.pdf"
 		}
 	}
-
-	$scope.search = function (rower){
-		if(!$scope.query || $scope.query === ""){
-			return true;
-		}
-		var lcQuery = $scope.query.toLowerCase(),
-			lcFName = rower.fName.toLowerCase(),
-			lcLName = rower.lName.toLowerCase(),
-			lcFullName = lcFName + ' ' + lcLName,
-			lcAffiliation = rower.affiliation.toLowerCase();
-
-		if(lcFName.indexOf(lcQuery) != -1 || 
-			lcLName.indexOf(lcQuery) != -1 ||
-			lcFullName.indexOf(lcQuery) != -1 ||
-			lcAffiliation.indexOf(lcQuery) != -1){
-			return true;
-		}
-		return false;
-	};
 
 	$scope.scrollToRace = function(raceId) {
 		// TODO need a way to figure out how to do this differently for mobile?

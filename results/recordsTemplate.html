@@ -32,14 +32,14 @@
     <tr>
       <td>
         <ul class="unstyled">
-          <li ng-repeat="race in races | taggedRaces:womensTag" ng-show="(race.rowers|filter:search).length">
+          <li ng-repeat="race in races | taggedRaces:womensTag" ng-show="(race.rowers | rowerOrAffiliation:query).length">
             <a class="race-link" ng-href="" ng-click="scrollToRace(race.id)">{{race.name}}</a>
           </li>
         </ul>
       </td>
       <td>
         <ul class="unstyled">
-          <li ng-repeat="race in races | taggedRaces:mensTag" ng-show="(race.rowers|filter:search).length">
+          <li ng-repeat="race in races | taggedRaces:mensTag" ng-show="(race.rowers | rowerOrAffiliation:query).length">
             <a class="race-link" ng-href="" ng-click="scrollToRace(race.id)">{{race.name}}</a>
           </li>
         </ul>
@@ -50,7 +50,7 @@
 
 
 <div style="overflow:auto;" ng-repeat="race in races" id="{{race.id}}">
-  <table class="table table-striped table-condensed" ng-show="(race.rowers|filter:search).length">
+  <table class="table table-striped table-condensed" ng-show="(race.rowers | rowerOrAffiliation:query).length">
     <caption><strong>{{race.name}}</strong> <a class="race-link" ng-href="" ng-click="scrollToTop()">top</a></caption>
     <thead>
       <tr>
@@ -63,7 +63,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="rower in race.rowers | filter:search">
+      <tr ng-repeat="rower in race.rowers | rowerOrAffiliation:query">
         <td>{{rower.event}}</td>
         <td>{{rower.fName}}</td>
         <td>{{rower.lName}}</td>
