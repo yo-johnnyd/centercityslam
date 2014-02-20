@@ -1,14 +1,3 @@
-/*
-*	TODOS:
-* -------------------------------------1). get search working as a filter
-* 2). don't filter 4 times
-* 3). make anything hardcoded a constant
-* 4). better way to do scrollToRace
-* 5). tests
-* 6). pipe dream: route includes race id
-*/
-
-
 angular.module('resultsFilters', [])
 .filter('taggedRaces', function(){
 	return function(races, tagName) {
@@ -63,7 +52,15 @@ angular.module('resultsFilters', [])
 
 angular.module('results', ['ngRoute','resultsFilters'])
 
-.config(function($routeProvider) {
+.constant('mySettings', {
+	'defaultYear': '2014',
+	'tags': {
+		'mensTag': 'mens',
+		'womensTag': 'womens'
+	}
+})
+
+.config(function($routeProvider, mySettings) {
 	$routeProvider.when('/year/:year', {
 		controller:'ResultsCtrl',
 		templateUrl:'results/resultsTemplate.html'
@@ -73,19 +70,24 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		templateUrl:'results/recordsTemplate.html'
 	})
 	.otherwise({
-		redirectTo:'/year/2014'
+		redirectTo:'/year/' + mySettings.defaultYear
 	});
 })
 
-.controller('RecordsCtrl', function($scope, $http, $routeParams) {
-	// TODO tons of dup code in here
+.factory('timeParse', function() {
+	return function(raceTime) {
+		return raceTime.substring(0,7);
+	}
+})
+
+.controller('RecordsCtrl', function($scope, $http, $routeParams, mySettings, timeParse) {
 	var menuHeight = $('#resultsMenu').height(),
 		yearMenuOffset = $('#yearMenu').offset.top;
 
 	$scope.year = $routeParams.year;
-	// TODO: why can't I just pass these in to the filter function?
-	$scope.mensTag = "mens";
-	$scope.womensTag = "womens";
+	$scope.timeParse = timeParse;
+	$scope.mensTag = mySettings.tags.mensTag;
+	$scope.womensTag = mySettings.tags.womensTag;
 
 	$scope.downloadLinks = {
 		"2013" : {
@@ -109,10 +111,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		return menuItem === 'records';
 	};
 
-	$scope.timeParse = function(raceTime) {
-		return raceTime.substring(0,7);
-	}
-
 	$('#filter-form').on('submit', function(event){
 		document.activeElement.blur();
 	});
@@ -123,14 +121,14 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	});
 })
 
-.controller('ResultsCtrl', function($scope, $http, $routeParams) {
+.controller('ResultsCtrl', function($scope, $http, $routeParams, mySettings, timeParse) {
 	var menuHeight = $('#resultsMenu').height(),
 		yearMenuOffset = $('#yearMenu').offset.top;
 
 	$scope.year = $routeParams.year;
-	// TODO: why can't I just pass these in to the filter function?
-	$scope.mensTag = "mens";
-	$scope.womensTag = "womens";
+	$scope.timeParse = timeParse;
+	$scope.mensTag = mySettings.tags.mensTag;
+	$scope.womensTag = mySettings.tags.womensTag;
 
 	$scope.downloadLinks = {
 		"2013": {
@@ -173,10 +171,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.isActive = function(year){
 		return year === $scope.year;
 	};
-
-	$scope.timeParse = function(raceTime) {
-		return raceTime.substring(0,7);
-	}
 
 	$('#filter-form').on('submit', function(event){
 		document.activeElement.blur();
