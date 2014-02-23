@@ -63,11 +63,11 @@ angular.module('results', ['ngRoute','resultsFilters'])
 .config(function($routeProvider, mySettings) {
 	$routeProvider.when('/year/:year', {
 		controller:'ResultsCtrl',
-		templateUrl:'results/resultsTemplate.html'
+		templateUrl:'partials/resultsTemplate.html'
 	})
 	.when('/records/:year', {
 		controller:'RecordsCtrl',
-		templateUrl:'results/recordsTemplate.html'
+		templateUrl:'partials/recordsTemplate.html'
 	})
 	.otherwise({
 		redirectTo:'/year/' + mySettings.defaultYear
@@ -116,7 +116,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	});
 
 	// make request
-	$http.get('results/' + $routeParams.year + 'records.json').success(function(data) {
+	$http.get('data/' + $routeParams.year + 'records.json').success(function(data) {
 		$scope.races = data.years[0].races;
 	});
 })
@@ -177,7 +177,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	});
 
 	// make request
-	$http.get('results/' + $routeParams.year + 'results.json').success(function(data) {
+	$http.get('data/' + $routeParams.year + 'results.json').success(function(data) {
 		$scope.races = data.years[0].races;
 	});
 });
