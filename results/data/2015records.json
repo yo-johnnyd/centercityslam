@@ -1,0 +1,52 @@
+{
+  "event" : "centerCitySlam",
+  "years": [
+    {
+      "year": "2015",
+      "races": [
+        {
+          "id": "wr2015",
+          "name": "Women's Records",
+          "number": 1,
+          "tags": ["womens","records"],
+          "rowers": [
+            {"event": "Girls' Youth u14","fName":"Sofia","lName":"Guiterrez","affiliation":"South Jersey Rowing Club","time":"08:34.7","year":"2015"},
+            {"event": "Women's HS Novice","fName":"Elyssa","lName":"Aronson","affiliation":"South Jersey Rowing Club","time":"07:25.7","year":"2015"},
+            {"event": "Women's HS LWT","fName":"Jackie","lName":"Lees","affiliation":"Archbishop Prendergast","time":"07:24.4","year":"2009"},
+            {"event": "Women's HS Open","fName":"Victoria","lName":"Gevurtz","affiliation":"Baldwin School Crew","time":"07:12.2","year":"2013"},
+            {"event": "Women's Masters A","fName":"Karen","lName":"Hommer","affiliation":"Philadelphia Flying Phoenix","time":"07:41.5","year":"2013"},
+            {"event": "Women's Masters B","fName":"Christine","lName":"Pezzulo","affiliation":"USDBF Team USA Premier Women","time":"07:30.2","year":"2015"},
+            {"event": "Women's Masters C","fName":"Ellen","lName":"Saint","affiliation":"Vesper Boat Club","time":"07:39.3","year":"2015"},
+            {"event": "Women's Masters D","fName":"Claudia","lName":"Pavlak","affiliation":"Philadelphia Flying Phoenix","time":"07:52.8","year":"2011"},
+            {"event": "Women's Collegiate Novice","fName":"Paige","lName":"Propp","affiliation":"Unaffiliated","time":"07:25.6","year":"2015"},
+            {"event": "Women's Open LWT","fName":"Claire","lName":"McConnell","affiliation":"Penn AC","time":"07:32.7","year":"2011"},
+            {"event": "Women's Open","fName":"Ann","lName":"Holmes","affiliation":"Unaffiliated","time":"06:59.4","year":"2011"},
+            {"event": "Women's Open 500m","fName":"Sierra","lName":"Baca","affiliation":"Unaffiliated","time":"01:38.6","year":"2013"}
+          ]
+        },
+        {
+          "id": "mr2015",
+          "name": "Men's Records",
+          "number": 2,
+          "time": null,
+          "distance": 2000,
+          "tags": ["mens","records"],
+          "rowers": [
+            {"event":"Boys' Youth u14","fName":"Dylan","lName":"Flogaus","affiliation":"Wilmington Youth Rowing Association","time":"07:11.2","year":"2015"},
+            {"event":"Men's HS Novice","fName":"Lachlan","lName":"Mersky","affiliation":"Haddonfield Crew Club","time":"06:49.9","year":"2014"},
+            {"event":"Men's HS LWT","fName":"Paul","lName":"Hurd","affiliation":"Haddonfield Crew Club","time":"06:39.0","year":"2014"},
+            {"event":"Men's HS Open","fName":"Jonathan","lName":"Ghaul","affiliation":"St. Joseph's Prep School","time":"06:18.0","year":"2013"},
+            {"event":"Men's Masters A","fName":"Edward","lName":"Golding","affiliation":"College Boat Club","time":"06:19.5","year":"2012"},
+            {"event":"Men's Masters B","fName":"Greg","lName":"Myhr","affiliation":"College Boat Club","time":"06:27.5","year":"2011"},
+            {"event":"Men's Masters C","fName":"Curtis","lName":"Kaufmann","affiliation":"Fairmount","time":"06:45.0","year":"2010"},
+            {"event":"Men's Masters D","fName":"Jim","lName":"Castellan","affiliation":"Fairmount","time":"06:44.2","year":"2010"},
+            {"event":"Men's Collegiate Novice","fName":"Marko","lName":"Durica","affiliation":"Hannah's Salty Dogs","time":"06:15.5","year":"2012"},
+            {"event":"Men's Open LWT","fName":"Ryan","lName":"Dartnell","affiliation":"Unaffiliated","time":"06:27.0","year":"2015"},
+            {"event":"Men's Open","fName":"Steve","lName":"Kasprzyk","affiliation":"DRAG / Penn AC","time":"05:54.9","year":"2011"},
+            {"event":"Men's Open 500m","fName":"Ian","lName":"Luetzow","affiliation":"Unaffiliated","time":"01:19.3","year":"2015"}
+          ]
+        }
+      ]
+    }
+  ]
+}

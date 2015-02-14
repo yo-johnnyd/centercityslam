@@ -38,7 +38,7 @@ angular.module('resultsFilters', [])
 					lcFullName = lcFName + ' ' + lcLName,
 					lcAffiliation = rower.affiliation.toLowerCase();
 
-				if(lcFName.indexOf(lcQuery) != -1 || 
+				if(lcFName.indexOf(lcQuery) != -1 ||
 					lcLName.indexOf(lcQuery) != -1 ||
 					lcFullName.indexOf(lcQuery) != -1 ||
 					lcAffiliation.indexOf(lcQuery) != -1){
@@ -53,7 +53,7 @@ angular.module('resultsFilters', [])
 angular.module('results', ['ngRoute','resultsFilters'])
 
 .constant('mySettings', {
-	'defaultYear': '2014',
+	'defaultYear': '2015',
 	'tags': {
 		'mensTag': 'mens',
 		'womensTag': 'womens'
@@ -89,13 +89,6 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.mensTag = mySettings.tags.mensTag;
 	$scope.womensTag = mySettings.tags.womensTag;
 
-	$scope.downloadLinks = {
-		"2013" : {
-			"title": "Records (pdf)",
-			"link": "results/Records_2013.pdf"
-		}
-	};
-
 	$scope.scrollToRace = function(raceId) {
 		// TODO need a way to figure out how to do this differently for mobile?
 		$("body,html").animate({scrollTop: $('#' + raceId).offset().top - menuHeight}, "slow");
@@ -106,7 +99,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		$("body,html").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
 	};
 
-	// menu context check	
+	// menu context check
 	$scope.isActive = function(menuItem){
 		return menuItem === 'records';
 	};
@@ -133,7 +126,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.downloadLinks = {
 		"2013": {
 			"title": "Results (pdf)",
-			"link": "results/Center_City_Slam_2013_results.pdf",
+			"link": "data/Center_City_Slam_2013_results.pdf",
 			"recordsTitle": "Records (pdf)",
 			"recordsLink": "Records_2013.pdf"
 		},
@@ -143,19 +136,19 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		},
 		"2011": {
 			"title": "Results (pdf)",
-			"link": "results/Center_City_Slam_2011_results.pdf"
+			"link": "data/Center_City_Slam_2011_results.pdf"
 		},
 		"2010": {
 			"title": "Results (xls)",
-			"link": "results/Center_City_Slam_2010results.xls"
+			"link": "data/Center_City_Slam_2010results.xls"
 		},
 		"2009": {
 			"title": "Results (xls)",
-			"link": "results/Center+City+Slam+Results+2009.xls"
+			"link": "data/Center+City+Slam+Results+2009.xls"
 		},
 		"2008": {
 			"title": "Results (pdf)",
-			"link": "results/2008_Results.pdf"
+			"link": "data/2008_Results.pdf"
 		}
 	}
 
@@ -167,7 +160,7 @@ angular.module('results', ['ngRoute','resultsFilters'])
 	$scope.scrollToTop = function() {
 		$("body,html").animate({scrollTop: yearMenuOffset - menuHeight}, "slow");
 	};
-	// menu context check	
+	// menu context check
 	$scope.isActive = function(year){
 		return year === $scope.year;
 	};

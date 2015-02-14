@@ -1,4 +1,5 @@
 <ul class="nav nav-pills" id="yearMenu">
+  <li ng-class="{active:isActive('2015')}"><a href="#/year/2015">2015</a></li>
   <li ng-class="{active:isActive('2014')}"><a href="#/year/2014">2014</a></li>
   <li ng-class="{active:isActive('2013')}"><a href="#/year/2013">2013</a></li>
   <li ng-class="{active:isActive('2012')}"><a href="#/year/2012">2012</a></li>
@@ -6,7 +7,7 @@
   <li ng-class="{active:isActive('2010')}"><a href="#/year/2010">2010</a></li>
   <li ng-class="{active:isActive('2009')}"><a href="#/year/2009">2009</a></li>
   <li ng-class="{active:isActive('2008')}"><a href="#/year/2008">2008</a></li>
-  <li ng-class="{active:isActive('records')}"><a href="#/records/2014">Records</a></li>
+  <li ng-class="{active:isActive('records')}"><a href="#/records/2015">Records</a></li>
 </ul>
 
 <table class="table table-condensed">
@@ -50,7 +51,7 @@
 
 <div style="overflow:auto;" ng-repeat="race in races" id="{{race.id}}" ng-show="(race.rowers | rowerOrAffiliation:query).length">
   <table class="table table-striped table-condensed">
-    <caption><strong>{{race.name}}</strong> <a class="race-link" ng-href="" ng-click="scrollToTop()">top</a></caption>
+    <caption><strong>{{race.name}}</strong> <a class="race-link" ng-click="someObj.scrollToTop()">top</a></caption>
     <thead>
       <tr>
         <th></th>
