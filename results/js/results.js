@@ -169,8 +169,19 @@ angular.module('results', ['ngRoute','resultsFilters'])
 		document.activeElement.blur();
 	});
 
+	var resultsMap = {
+		2008: '2008results.json',
+		2009: '2009results.json',
+		2010: '2010results.json',
+		2011: '2011results.json',
+		2012: '2012results.json',
+		2013: '2013results.json',
+		2014: '2014results.json',
+		2015: '2015results.json'
+	}
+
 	// make request
-	$http.get('data/' + $routeParams.year + 'results.json').success(function(data) {
+	$http.get('data/' + resultsMap[$routeParams.year]).success(function(data) {
 		$scope.races = data.years[0].races;
 	});
 });
