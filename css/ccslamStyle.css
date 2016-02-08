@@ -7,6 +7,39 @@ p.announcement{
   text-align:center;
 }
 
+.sponsor-logo-container{
+
+}
+
+.sponsor-logo{
+  float: left;
+  width: 16.66%;
+  text-align: center;
+}
+
+.sponsor-logo a{
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.sponsor-logo img{
+  max-height: 130px;
+  max-width: 130px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sponsor-logo img{
+    max-height: 110px;
+    max-width: 110px;
+  }
+}
+
 .mb20{
   margin-bottom: 40px;
+}
+
+.fb-icon{
+  margin-top: 5px;
+  float: right;
 }
