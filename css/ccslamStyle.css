@@ -7,13 +7,18 @@ p.announcement{
   text-align:center;
 }
 
-.sponsor-logo-container{
+.sponsor-logo-container .sponsor-logo{
+  width: 16.66%;
+}
 
+.sponsor-logo-container-vertical .sponsor-logo{
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sponsor-logo{
   float: left;
-  width: 16.66%;
   text-align: center;
 }
 
